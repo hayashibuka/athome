@@ -1,0 +1,2946 @@
+- :name: 'html'
+  :attributes:
+    :lang: 'ja'
+  :children:
+    - :name: 'head'
+      :children:
+        - :name: 'meta'
+          :attributes:
+            :charset: 'utf-8'
+        - :name: 'title'
+        - :name: 'meta'
+          :attributes:
+            :content: '東京駅,不動産,住宅,物件情報,athome,アットホーム'
+            :name: 'keywords'
+        - :name: 'meta'
+          :attributes:
+            :content: '東京駅から不動産・住宅・物件情報を探すページ。東京駅の不動産・住宅・物件情報を探すならアットホーム。東京都の不動産物件を賃貸・購入からエリアや価格などこだわりの条件に絞り込んで検索が可能！東京駅に関する詳細情報やおすすめの特集も盛り沢山なのであなたの希望に合った物件情報を検索・比較できます。'
+            :name: 'description'
+        - :name: 'meta'
+          :attributes:
+            :content: 'index,follow,noarchive'
+            :name: 'robots'
+        - :name: 'link'
+          :attributes:
+            :href: 'http://www.athome.co.jp//tokyo/tokyo-st/'
+            :rel:
+              - canonical
+        - :name: 'link'
+          :attributes:
+            :href: '/favicon.ico'
+            :rel:
+              - shortcut
+              - icon
+            :type: 'image/x-icon'
+        - :name: 'link'
+          :attributes:
+            :href: '/favicon.ico'
+            :rel:
+              - icon
+            :type: 'image/x-icon'
+        - :name: 'link'
+          :attributes:
+            :href: '/css/std/master.css'
+            :rel:
+              - stylesheet
+            :type: 'text/css'
+        - :name: 'link'
+          :attributes:
+            :href: '/css/std/lib_css/top.css'
+            :rel:
+              - stylesheet
+            :type: 'text/css'
+        - :name: 'link'
+          :attributes:
+            :href: '/css/std/lib_css/feature.css'
+            :rel:
+              - stylesheet
+            :type: 'text/css'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/std/jquery-1.8.3.min.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/std/jquery.bxslider.min.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/std/jquery.colorbox-min.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/std/common_functions.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/ext/common_functions_ext.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/ext/common/cookie.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/personal_functions.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/personal_cond.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/std/html5shiv.min.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/std/respond.min.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/std/login.js'
+            :type: 'text/javascript'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/std/loginparts_editor.js'
+            :type: 'text/javascript'
+        - :name: 'script'
+        - :name: 'script'
+          :attributes:
+            :data-kz-key: '1edfcc905e69e940'
+            :data-kz-namespace: 'kzs'
+            :src: '//cdn.kaizenplatform.net/s/1e/dfcc905e69e940.js'
+    - :name: 'body'
+      :children:
+        - :name: 'a'
+          :attributes:
+            :id: 'top'
+        - :name: 'form'
+          :attributes:
+            :method: 'POST'
+            :name: 'personalfunc'
+            :target: '_blank'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'ITEM'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'ART'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'SEO_SHUMOKU'
+                :type: 'hidden'
+                :value: ''
+        - :name: 'header'
+          :children:
+            - :name: 'div'
+              :attributes:
+                :id: 'fixedbar'
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - clr
+                    :id: 'fixedbar-inner'
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :href: '/'
+                        :id: 'logo-fixedbar'
+                      :children:
+                        - :name: 'img'
+                          :attributes:
+                            :alt: 'athome'
+                            :src: '/images/std/common/logo_fixedbar.png'
+                    - :name: 'div'
+                      :attributes:
+                        :id: 'fixedbar-data_wrap'
+                      :children:
+                        - :name: 'table'
+                          :attributes:
+                            :id: 'fixedbar-data'
+                          :children:
+                            - :name: 'tr'
+                              :children:
+                                - :name: 'th'
+                                  :attributes:
+                                    :scope: 'row'
+                                - :name: 'td'
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - counter
+                                          - pie
+                                      :children:
+                                        - :name: 'span'
+                                          :attributes:
+                                            :class:
+                                              - num
+                                              - estate_count
+                                - :name: 'td'
+                                  :attributes:
+                                    :id: 'fixedbar-data_caption'
+                    - :name: 'ul'
+                      :attributes:
+                        :class:
+                          - clr
+                        :id: 'fixedbar-func'
+                      :children:
+                        - :name: 'li'
+                          :attributes:
+                            :id: 'fixedbar-func_fav'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'javascript:void(0);'
+                                :onclick: 'personal_func(''/personal/favorite'');'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - title
+                        - :name: 'li'
+                          :attributes:
+                            :id: 'fixedbar-func_hist'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'javascript:void(0);'
+                                :onclick: 'personal_func(''/personal/history'');'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - title
+                        - :name: 'li'
+                          :attributes:
+                            :id: 'fixedbar-func_save'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'javascript:void(0);'
+                                :onclick: 'personal_func(''/personal/condition'');'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - title
+                        - :name: 'li'
+                          :attributes:
+                            :id: 'fixedbar-func_login'
+                          :children:
+                            - :name: 'p'
+                              :attributes:
+                                :class:
+                                  - login_link
+                    - :name: 'p'
+                      :attributes:
+                        :id: 'fixedbar-first'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/advice/'
+                            :target: '_blank'
+                          :children:
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - title
+            - :name: 'div'
+              :attributes:
+                :id: 'header-inner'
+              :children:
+                - :name: 'p'
+                  :attributes:
+                    :id: 'siteSummary'
+                - :name: 'a'
+                  :attributes:
+                    :href: '/'
+                    :id: 'logo'
+                  :children:
+                    - :name: 'img'
+                      :attributes:
+                        :alt: 'アットホーム'
+                        :height: '33'
+                        :src: '/images/std/global/logo_header.gif'
+                        :width: '153'
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - nav
+                      - clr
+                    :id: 'header-nav'
+                  :children:
+                    - :name: 'dl'
+                      :attributes:
+                        :id: 'header-nav_rent'
+                      :children:
+                        - :name: 'dt'
+                        - :name: 'dd'
+                          :attributes:
+                            :class:
+                              - header-nav_rent
+                            :id: 'rent_chintai'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/chintai/'
+                    - :name: 'dl'
+                      :attributes:
+                        :id: 'header-nav_mansion'
+                      :children:
+                        - :name: 'dt'
+                          :attributes:
+                            :class:
+                              - 
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/mansion/'
+                        - :name: 'dd'
+                          :attributes:
+                            :class:
+                              - header-nav_mansion
+                            :id: 'mansion_new'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/clasoa_mansion/'
+                                :target: '_blank'
+                        - :name: 'dd'
+                          :attributes:
+                            :class:
+                              - header-nav_mansion
+                            :id: 'mansion_used'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/mansion/chuko/'
+                    - :name: 'dl'
+                      :attributes:
+                        :id: 'header-nav_kodate'
+                      :children:
+                        - :name: 'dt'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/kodate/'
+                        - :name: 'dd'
+                          :attributes:
+                            :class:
+                              - header-nav_kodate
+                            :id: 'kodate_new'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/kodate/shinchiku/'
+                        - :name: 'dd'
+                          :attributes:
+                            :class:
+                              - header-nav_kodate
+                            :id: 'kodate_used'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/kodate/chuko/'
+                    - :name: 'dl'
+                      :attributes:
+                        :id: 'header-nav_buy'
+                      :children:
+                        - :name: 'dt'
+                        - :name: 'dd'
+                          :attributes:
+                            :class:
+                              - header-nav_buy
+                            :id: 'buy_tochi'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/tochi/'
+                        - :name: 'dd'
+                          :attributes:
+                            :class:
+                              - header-nav_buy
+                            :id: 'buy_toushi'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/biz/'
+                    - :name: 'ul'
+                      :attributes:
+                        :id: 'header-nav_others'
+                      :children:
+                        - :name: 'li'
+                          :attributes:
+                            :class:
+                              - header-nav_others
+                            :id: 'others_estate'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/estate/'
+                        - :name: 'li'
+                          :attributes:
+                            :class:
+                              - header-nav_others
+                            :id: 'others_assess'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/assess/'
+                        - :name: 'li'
+                          :attributes:
+                            :class:
+                              - header-nav_others
+                            :id: 'others_hikkoshi'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/hikkoshi/'
+                - :name: 'ul'
+                  :attributes:
+                    :class:
+                      - clr
+                    :id: 'header-func'
+                  :children:
+                    - :name: 'li'
+                      :attributes:
+                        :id: 'header-func_fav'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :class:
+                              - nonUnderline
+                            :href: '#'
+                            :onclick: 'personal_func(''/personal/favorite/'');return false;'
+                          :children:
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - counter
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - num
+                                    :id: 'header_kento_count'
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - title
+                    - :name: 'li'
+                      :attributes:
+                        :id: 'header-func_hist'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :class:
+                              - nonUnderline
+                            :href: '#'
+                            :onclick: 'personal_func(''/personal/history/'');return false;'
+                          :children:
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - counter
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - num
+                                    :id: 'EtsuranCount'
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - title
+                              :children:
+                                - :name: 'br'
+                    - :name: 'li'
+                      :attributes:
+                        :id: 'header-func_save'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :class:
+                              - nonUnderline
+                            :href: '#'
+                            :onclick: 'personal_func(''/personal/condition/'');return false;'
+                          :children:
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - counter
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - num
+                                    :id: 'savedCondCounter'
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - title
+                              :children:
+                                - :name: 'br'
+        - :name: 'nav'
+          :attributes:
+            :id: 'yrHere'
+          :children:
+            - :name: 'ul'
+              :attributes:
+                :id: 'breadcrumbs'
+              :children:
+                - :name: 'li'
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :itemscope: ''
+                        :itemtype: 'http://data-vocabulary.org/Breadcrumb'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/'
+                            :itemprop: 'url'
+                          :children:
+                            - :name: 'span'
+                              :attributes:
+                                :itemprop: 'title'
+                - :name: 'li'
+        - :name: 'noscript'
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - site-alert
+                  - clr
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - left
+                  :children:
+                    - :name: 'p'
+                      :attributes:
+                        :class:
+                          - atention
+                      :children:
+                        - :name: 'br'
+                - :name: 'p'
+                  :attributes:
+                    :class:
+                      - right
+                      - icoArrow
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :href: '/help/browse/'
+        - :name: 'div'
+          :attributes:
+            :class:
+              - mx
+              - top
+            :id: 'container'
+          :children:
+            - :name: 'div'
+              :attributes:
+                :id: 'mainCol'
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :id: 'mainBody'
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - box
+                        :id: 'agent-index'
+                      :children:
+                        - :name: 'h1'
+                          :attributes:
+                            :class:
+                              - heading
+                              - lv1
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - inner
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - link-box_wrap
+                                  - clr
+                                  - pie
+                              :children:
+                                - :name: 'section'
+                                  :attributes:
+                                    :class:
+                                      - link-box
+                                      - pie
+                                    :id: 'link-box_01'
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - box-inner
+                                      :children:
+                                        - :name: 'h2'
+                                          :attributes:
+                                            :class:
+                                              - heading
+                                          :children:
+                                            - :name: 'img'
+                                              :attributes:
+                                                :alt: '借りる'
+                                                :height: '54'
+                                                :src: '/images/std/fudousan/stit_link_rent.gif'
+                                                :width: '315'
+                                        - :name: 'ul'
+                                          :attributes:
+                                            :class:
+                                              - horizontal
+                                              - clr
+                                              - parent
+                                          :children:
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - link-box_01_01
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - fwB
+                                                    :href: 'http://www.athome.co.jp/chintai/tokyo/tokyo-st/'
+                                                - :name: 'ul'
+                                                  :attributes:
+                                                    :class:
+                                                      - horizontal
+                                                      - clr
+                                                      - child
+                                                  :children:
+                                                    - :name: 'li'
+                                                      :children:
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :href: 'http://www.athome.co.jp/chintai/mansion/tokyo/tokyo-st/'
+                                                    - :name: 'li'
+                                                      :children:
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :href: 'http://www.athome.co.jp/chintai/apart/tokyo/tokyo-st/'
+                                                    - :name: 'li'
+                                                      :children:
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :href: 'http://www.athome.co.jp/chintai/kodate/tokyo/tokyo-st/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'http://www.athome.co.jp/%E6%9D%B1%E4%BA%AC/jr_03-2_12_13-2171-lst_2171021_1.html'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'http://www.athome.co.jp/%E6%9D%B1%E4%BA%AC/jr_04-2_12_13-2171-lst_2171021_1.html'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'http://www.athome.co.jp/%E6%9D%B1%E4%BA%AC/jr_02-2_12_13-2171-lst_2171021_1.html'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'http://www.athome.co.jp/%E6%9D%B1%E4%BA%AC/jr_05-2_12_13-2171-lst_2171021_1.html'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'http://www.athome.co.jp/%E6%9D%B1%E4%BA%AC/jr_06-2_12_13-2171-lst_2171021_1.html'
+                                - :name: 'section'
+                                  :attributes:
+                                    :class:
+                                      - link-box
+                                      - pie
+                                    :id: 'link-box_02'
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - box-inner
+                                      :children:
+                                        - :name: 'h2'
+                                          :attributes:
+                                            :class:
+                                              - heading
+                                          :children:
+                                            - :name: 'img'
+                                              :attributes:
+                                                :alt: '買う'
+                                                :height: '54'
+                                                :src: '/images/std/fudousan/stit_link_sell.gif'
+                                                :width: '315'
+                                        - :name: 'ul'
+                                          :attributes:
+                                            :class:
+                                              - parent
+                                              - clr
+                                          :children:
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - link-box_02_01
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - fwB
+                                                    :href: 'http://www.athome.co.jp/mansion/tokyo/tokyo-st/'
+                                                - :name: 'ul'
+                                                  :attributes:
+                                                    :class:
+                                                      - horizontal
+                                                      - clr
+                                                      - child
+                                                  :children:
+                                                    - :name: 'li'
+                                                      :children:
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :href: 'http://www.athome.co.jp/clasoa_mansion/%E6%9D%B1%E4%BA%AC%E9%83%BD/%EF%BC%AA%EF%BC%B2%E6%9D%B1%E6%B5%B7%E9%81%93%E6%9C%AC%E7%B7%9A-%E6%9D%B1%E4%BA%AC%E9%A7%85/'
+                                                            :target: '_blank'
+                                                    - :name: 'li'
+                                                      :children:
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/tokyo-st/'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - link-box_02_02
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - fwB
+                                                    :href: 'http://www.athome.co.jp/kodate/tokyo/tokyo-st/'
+                                                - :name: 'ul'
+                                                  :attributes:
+                                                    :class:
+                                                      - horizontal
+                                                      - clr
+                                                      - child
+                                                  :children:
+                                                    - :name: 'li'
+                                                      :children:
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/tokyo-st/'
+                                                    - :name: 'li'
+                                                      :children:
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/tokyo-st/'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - link-box_02_03
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - fwB
+                                                    :href: 'http://www.athome.co.jp/tochi/tokyo/tokyo-st/'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - link-box_02_04
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'http://www.athome.co.jp/%E6%9D%B1%E4%BA%AC/js_15-2_12_13-2171-lst_2171021_1.html'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - link-box_02_04
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'http://www.athome.co.jp/%E6%9D%B1%E4%BA%AC/js_16-2_12_13-2171-lst_2171021_1.html'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - link-box_02_04
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'http://www.athome.co.jp/%E6%9D%B1%E4%BA%AC/js_17-2_12_13-2171-lst_2171021_1.html'
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - clr
+                                  :children:
+                                    - :name: 'section'
+                                      :attributes:
+                                        :id: 'link-box_03'
+                                      :children:
+                                        - :name: 'h2'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/me_20/2_12_13/2171/lst_2171021'
+                                              :children:
+                                                - :name: 'img'
+                                                  :attributes:
+                                                    :alt: '不動産会社を探す アットホーム加盟店'
+                                                    :height: '68'
+                                                    :src: '/images/std/fudousan/bt_link_estate_l.gif'
+                                                    :width: '690'
+                            - :name: 'p'
+                              :attributes:
+                                :class:
+                                  - read
+                                  - fsS
+                    - :name: 'section'
+                      :attributes:
+                        :class:
+                          - linerBox
+                        :id: 'agent-contents'
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - inner
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - feature-contents_head
+                                  - overwrap
+                                  - clr
+                              :children:
+                                - :name: 'h2'
+                                  :attributes:
+                                    :class:
+                                      - heading
+                                      - lv3
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - feature-block_theme
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - theme-wrap
+                                  :children:
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - heading
+                                          - theme-title
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - horizontal
+                                          - clr
+                                          - col-2
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - item
+                                              - wide
+                                              - pie
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - withThumb
+                                                :href: '/chintai/theme/hitori/tokyo/tokyo-st/'
+                                              :children:
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - thumb
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: '一人暮らしに人気の条件特集'
+                                                        :height: '70'
+                                                        :src: '/backend/theme/thumbnail/hitori_tn.gif'
+                                                        :width: '70'
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - title
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - desc
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - item
+                                              - wide
+                                              - pie
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - withThumb
+                                                :href: '/chintai/theme/shinkon/tokyo/tokyo-st/'
+                                              :children:
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - thumb
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: '新婚にピッタリの物件特集'
+                                                        :height: '70'
+                                                        :src: '/backend/theme/thumbnail/shinkon_tn.gif'
+                                                        :width: '70'
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - title
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - desc
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - icoArrow
+                                          - typeInline
+                                          - auto
+                                          - feature-contents_theme-list
+                                          - pie
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/chintai/theme/reform/tokyo/tokyo-st/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/chintai/theme/bike/tokyo/tokyo-st/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/chintai/theme/pet/tokyo/tokyo-st/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/chintai/theme/shikirei0/tokyo/tokyo-st/'
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - theme-wrap
+                                  :children:
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - heading
+                                          - theme-title
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - horizontal
+                                          - clr
+                                          - col-2
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - item
+                                              - wide
+                                              - pie
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - withThumb
+                                                :href: '/mansion/chuko/theme/ldk15/tokyo/tokyo-st/'
+                                              :children:
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - thumb
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: 'LDK15帖以上の物件特集'
+                                                        :height: '70'
+                                                        :src: '/backend/theme/thumbnail/ldk15_tn.gif'
+                                                        :width: '70'
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - title
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - desc
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - item
+                                              - wide
+                                              - pie
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - withThumb
+                                                :href: '/mansion/chuko/theme/chiku10nen/tokyo/tokyo-st/'
+                                              :children:
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - thumb
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: '築10年以内のマンション特集'
+                                                        :height: '70'
+                                                        :src: '/backend/theme/thumbnail/chiku10nen_tn.gif'
+                                                        :width: '70'
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - title
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - desc
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - icoArrow
+                                          - typeInline
+                                          - auto
+                                          - feature-contents_theme-list
+                                          - pie
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/mansion/chuko/theme/ihcookingheater/tokyo/tokyo-st/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/mansion/chuko/theme/alldenka/tokyo/tokyo-st/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/mansion/chuko/theme/trunkroom/tokyo/tokyo-st/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/mansion/chuko/theme/menshin/tokyo/tokyo-st/'
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - theme-wrap
+                                  :children:
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - heading
+                                          - theme-title
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - horizontal
+                                          - clr
+                                          - col-2
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - item
+                                              - wide
+                                              - pie
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - withThumb
+                                                :href: '/kodate/theme/wooddeck/tokyo/tokyo-st/'
+                                              :children:
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - thumb
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: 'ウッドデッキが付いている物件特集'
+                                                        :height: '70'
+                                                        :src: '/backend/theme/thumbnail/wooddeck_tn.gif'
+                                                        :width: '70'
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - title
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - desc
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - item
+                                              - wide
+                                              - pie
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - withThumb
+                                                :href: '/kodate/theme/kitchen/tokyo/tokyo-st/'
+                                              :children:
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - thumb
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: 'キッチンが充実している物件特集'
+                                                        :height: '70'
+                                                        :src: '/backend/theme/thumbnail/kitchen_tn.gif'
+                                                        :width: '70'
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - title
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - desc
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - icoArrow
+                                          - typeInline
+                                          - auto
+                                          - feature-contents_theme-list
+                                          - pie
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/kodate/theme/barrierfree/tokyo/tokyo-st/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/kodate/theme/chokiyuryo/tokyo/tokyo-st/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/kodate/theme/nisetai/tokyo/tokyo-st/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/kodate/theme/shokusenki/tokyo/tokyo-st/'
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - theme-wrap
+                                  :children:
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - heading
+                                          - theme-title
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - horizontal
+                                          - clr
+                                          - col-2
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - item
+                                              - wide
+                                              - pie
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - withThumb
+                                                :href: '/tochi/theme/ritchi/tokyo/tokyo-st/'
+                                              :children:
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - thumb
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: '立地にこだわって探す物件特集'
+                                                        :height: '70'
+                                                        :src: '/backend/theme/thumbnail/ritchi_tn.gif'
+                                                        :width: '70'
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - title
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - desc
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - item
+                                              - wide
+                                              - pie
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - withThumb
+                                                :href: '/tochi/theme/shinchaku/tokyo/tokyo-st/'
+                                              :children:
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - thumb
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: '新着物件ピックアップ'
+                                                        :height: '70'
+                                                        :src: '/backend/theme/thumbnail/shinchaku_tn.gif'
+                                                        :width: '70'
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - title
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - desc
+                            - :name: 'div'
+                              :attributes:
+                                :id: 'machi-area'
+                                :style: 'margin-top:10px;'
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - clr
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - horizontal
+                                          - clr
+                                          - col-1
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - item
+                                              - wide
+                                              - withThumb
+                                            :style: 'margin-left:10px;'
+                                          :children:
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - thumb
+                                                :style: 'margin-right:7px;'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'javascript:void(0)'
+                                                    :onclick: 'window.open (''/feature/moyamoya2/'',''_self'');return false;'
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: ''
+                                                        :height: '80'
+                                                        :src: '/backend/theme/town/image_moyamoya.gif'
+                                                        :width: '80'
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - title
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'javascript:void(0)'
+                                                    :onclick: 'window.open (''/feature/moyamoya2/'',''_self'');return false;'
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - desc
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - horizontal
+                                          - clr
+                                          - col-2
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - item
+                                              - wide
+                                              - withThumb
+                                            :style: 'width:45%; float:left; padding-right:38px;margin-left:10px;'
+                                          :children:
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - thumb
+                                                :style: 'margin-right:7px;'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'javascript:void(0)'
+                                                    :onclick: 'window.open (''/special/tv_spot/'',''_self'');return false;'
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: ''
+                                                        :height: '80'
+                                                        :src: '/backend/theme/town/image_tv_spot.gif'
+                                                        :width: '80'
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - title
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'javascript:void(0)'
+                                                    :onclick: 'window.open (''/special/tv_spot/'',''_self'');return false;'
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - desc
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - item
+                                              - wide
+                                              - withThumb
+                                            :style: 'width:45%;'
+                                          :children:
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - thumb
+                                                :style: 'margin-right:7px;'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'javascript:void(0)'
+                                                    :onclick: 'window.open (''/special/machicolle/'',''_self'');return false;'
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: ''
+                                                        :height: '80'
+                                                        :src: '/backend/theme/town/image_machicolle.gif'
+                                                        :width: '80'
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - title
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'javascript:void(0)'
+                                                    :onclick: 'window.open (''/special/machicolle/'',''_self'');return false;'
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - desc
+                                              :children:
+                                                - :name: 'br'
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - horizontal
+                                          - clr
+                                          - col-2
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - item
+                                              - wide
+                                              - withThumb
+                                            :style: 'width:45%;margin-left:10px; float:left; padding-right:38px;'
+                                          :children:
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - thumb
+                                                :style: 'margin-right:7px;'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'javascript:void(0)'
+                                                    :onclick: 'window.open (''/special/uturn_iturn/'',''_self'');return false;'
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: ''
+                                                        :height: '80'
+                                                        :src: '/backend/theme/town/image_uturn_iturn.gif'
+                                                        :width: '80'
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - title
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'javascript:void(0)'
+                                                    :onclick: 'window.open (''/special/uturn_iturn/'',''_self'');return false;'
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - desc
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - item
+                                              - wide
+                                              - withThumb
+                                            :style: 'width:45%;'
+                                          :children:
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - thumb
+                                                :style: 'margin-right:7px;'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'javascript:void(0)'
+                                                    :onclick: 'window.open (''/special/landmark/'',''_self'');return false;'
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: ''
+                                                        :height: '80'
+                                                        :src: '/backend/theme/town/image_landmark.gif'
+                                                        :width: '80'
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - title
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'javascript:void(0)'
+                                                    :onclick: 'window.open (''/special/landmark/'',''_self'');return false;'
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - desc
+                                              :children:
+                                                - :name: 'br'
+                    - :name: 'div'
+                      :attributes:
+                        :id: 'contents-link'
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - item
+                              - wide
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - withThumb
+                              :children:
+                                - :name: 'p'
+                                  :attributes:
+                                    :class:
+                                      - thumb
+                                  :children:
+                                    - :name: 'img'
+                                      :attributes:
+                                        :alt: ''
+                                        :height: '60'
+                                        :src: '/images/std/fudousan/img_link_souba.gif'
+                                        :width: '60'
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - title
+                                      - fsL
+                                - :name: 'p'
+                                  :attributes:
+                                    :class:
+                                      - desc
+                                - :name: 'dl'
+                                  :children:
+                                    - :name: 'dt'
+                                    - :name: 'dd'
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/souba/tokyo/tokyo-st/'
+                                    - :name: 'dd'
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/mansion/souba/tokyo/tokyo-st/'
+                                    - :name: 'dt'
+                                    - :name: 'dd'
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/mansion/chuko/souba/tokyo/tokyo-st/'
+                                    - :name: 'dd'
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/kodate/souba/tokyo/tokyo-st/'
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - item
+                              - wide
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - withThumb
+                              :children:
+                                - :name: 'p'
+                                  :attributes:
+                                    :class:
+                                      - thumb
+                                  :children:
+                                    - :name: 'img'
+                                      :attributes:
+                                        :alt: ''
+                                        :height: '60'
+                                        :src: '/images/std/fudousan/img_link_favorite.gif'
+                                        :width: '60'
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - title
+                                      - fsL
+                                - :name: 'p'
+                                  :attributes:
+                                    :class:
+                                      - desc
+                                - :name: 'dl'
+                                  :children:
+                                    - :name: 'dt'
+                                    - :name: 'dd'
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: 'http://www.athome.co.jp/chintai/ranking/favorite/tokyo/tokyo-st/'
+                                    - :name: 'dd'
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: 'http://www.athome.co.jp/chintai/mansion/ranking/favorite/tokyo/tokyo-st/'
+                                    - :name: 'dd'
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: 'http://www.athome.co.jp/chintai/apart/ranking/favorite/tokyo/tokyo-st/'
+                                    - :name: 'dd'
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: 'http://www.athome.co.jp/chintai/kodate/ranking/favorite/tokyo/tokyo-st/'
+                                    - :name: 'dt'
+                                    - :name: 'dd'
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: 'http://www.athome.co.jp/mansion/chuko/ranking/favorite/tokyo/tokyo-st/'
+                                    - :name: 'dd'
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: 'http://www.athome.co.jp/kodate/ranking/favorite/tokyo/tokyo-st/'
+                                    - :name: 'dd'
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: 'http://www.athome.co.jp/kodate/shinchiku/ranking/favorite/tokyo/tokyo-st/'
+                                    - :name: 'dd'
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: 'http://www.athome.co.jp/kodate/chuko/ranking/favorite/tokyo/tokyo-st/'
+                                    - :name: 'dd'
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: 'http://www.athome.co.jp/tochi/ranking/favorite/tokyo/tokyo-st/'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - clr
+                        :id: 'popular-wrap'
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - linerBox
+                              - holdList
+                              - linerBoxReset
+                            :id: 'popular-01'
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linerBoxGray
+                              :children:
+                                - :name: 'section'
+                                  :children:
+                                    - :name: 'h3'
+                                      :attributes:
+                                        :class:
+                                          - heading
+                                          - lv4
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - read
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - col-2
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/setagaya-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/suginami-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/nakano-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/nerima-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/ota-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/shinjuku-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/itabashi-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/toshima-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/edogawa-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/shibuya-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/shinagawa-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/meguro-city/list/'
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - linerBox
+                              - holdList
+                              - linerBoxReset
+                            :id: 'popular-02'
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linerBoxGray
+                              :children:
+                                - :name: 'section'
+                                  :children:
+                                    - :name: 'h3'
+                                      :attributes:
+                                        :class:
+                                          - heading
+                                          - lv4
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - read
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - col-1
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/keio-line/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/toeioedo-line/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/yamanote-line/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/sobu-line/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/chuo-line/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/seibushinjuku-line/list/'
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - linerBox
+                              - holdList
+                              - linerBoxReset
+                            :id: 'popular-03'
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linerBoxGray
+                              :children:
+                                - :name: 'section'
+                                  :children:
+                                    - :name: 'h3'
+                                      :attributes:
+                                        :class:
+                                          - heading
+                                          - lv4
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - read
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - col-2
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/nakano-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/ikebukuro-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/sasazuka-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/koenji-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/numabukuro-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/nogata-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/hatagaya-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/araiyakushimae-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/daitabashi-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/ogikubo-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/higashinakano-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/shinnakano-st/list/'
+                    - :name: 'p'
+                      :attributes:
+                        :id: 'seo-text'
+                    - :name: 'p'
+                      :attributes:
+                        :id: 'seo-text'
+            - :name: 'div'
+              :attributes:
+                :id: 'exCol'
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - sideBox
+                    :id: 'side-banner_01'
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :style: 'border-top:1px solid #eaeae8; border-left:1px solid #eaeae8; border-right:1px solid #eaeae8; height:123px;'
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :id: 'movie'
+                    - :name: 'a'
+                      :attributes:
+                        :href: '/special/brand/?16sapr=pc_at_item_cm'
+                      :children:
+                        - :name: 'img'
+                          :attributes:
+                            :alt: 'スペシャルムービーOA中！スペシャルサイトへ'
+                            :height: '59'
+                            :src: '/top/images/std/portal/cojp_bnr.jpg'
+                            :width: '220'
+                - :name: 'script'
+                  :attributes:
+                    :src: '/top/scripts/std/youtube.js'
+                - :name: 'div'
+                  :attributes:
+                    :id: 'side-agent'
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :id: 'side-agent_hikkoshi'
+                      :children:
+                        - :name: 'ul'
+                          :children:
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - withThumb
+                                    :href: 'http://www.athome.co.jp/hikkoshi/'
+                                  :children:
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - thumb
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: ''
+                                            :height: '65'
+                                            :src: '/images/std/fudousan/img_side_hikkoshi.gif'
+                                            :width: '65'
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - title
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - link
+                                      :children:
+                                        - :name: 'br'
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - withThumb
+                                    :href: 'http://www.athome.co.jp/assess/'
+                                  :children:
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - thumb
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: ''
+                                            :height: '65'
+                                            :src: '/images/std/fudousan/img_side_assess.gif'
+                                            :width: '65'
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - title
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - link
+                                      :children:
+                                        - :name: 'br'
+                    - :name: 'div'
+                      :attributes:
+                        :id: 'side-agent_links'
+                      :children:
+                        - :name: 'ul'
+                          :children:
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - typeTable
+                                    :href: 'http://resort-athome.jp/'
+                                    :target: '_blank'
+                                  :children:
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - thumb
+                                          - cell
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: ''
+                                            :height: '40'
+                                            :src: '/images/std/fudousan/img_side_resort.gif'
+                                            :width: '40'
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - title
+                                          - cell
+                                      :children:
+                                        - :name: 'span'
+                                          :attributes:
+                                            :class:
+                                              - ico
+                                              - blank
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - typeTable
+                                    :href: 'http://www.athome.co.jp/forstudents/gakuseikaikan/'
+                                  :children:
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - thumb
+                                          - cell
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: ''
+                                            :height: '40'
+                                            :src: '/images/std/fudousan/img_side_gakuseikaikan.gif'
+                                            :width: '40'
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - title
+                                          - cell
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - typeTable
+                                    :href: 'http://www.athome.co.jp/short_krsp/'
+                                  :children:
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - thumb
+                                          - cell
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: ''
+                                            :height: '40'
+                                            :src: '/images/std/fudousan/img_side_monthly.gif'
+                                            :width: '40'
+                                    - :name: 'p'
+                                      :attributes:
+                                        :class:
+                                          - title
+                                          - cell
+                                      :children:
+                                        - :name: 'br'
+                - :name: 'div'
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :style: 'border:1px solid #eaeaea;margin-bottom:10px;'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/sports/?sports=pc_at_item'
+                          :children:
+                            - :name: 'img'
+                              :attributes:
+                                :alt: '国枝慎吾選手が出演するTVCM公開中！'
+                                :height: '134'
+                                :src: '/backend/contents/relation_site/atsports.jpg'
+                                :width: '218'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - sideBox
+                        :id: 'side-athomeVox'
+                      :children:
+                        - :name: 'p'
+                          :attributes:
+                            :class:
+                              - heading
+                          :children:
+                            - :name: 'br'
+                        - :name: 'p'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/vox/'
+                                :target: '_blank'
+                              :children:
+                                - :name: 'img'
+                                  :attributes:
+                                    :alt: ''
+                                    :height: '68'
+                                    :src: '/backend/contents/relation_site/15062101_Athome_Vox_Bnr.jpg'
+                                    :width: '206'
+                        - :name: 'p'
+                          :attributes:
+                            :class:
+                              - title
+                              - fsL
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/vox/'
+                                :target: '_blank'
+                        - :name: 'p'
+                          :attributes:
+                            :class:
+                              - desc
+                              - fsMS
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - sideBox
+                        :id: 'side-banner_relation'
+                      :children:
+                        - :name: 'p'
+                          :attributes:
+                            :class:
+                              - heading
+                              - pie
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - inner
+                              - banners
+                          :children:
+                            - :name: 'p'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://cinemadori.jp/'
+                                    :target: '_blank'
+                                  :children:
+                                    - :name: 'img'
+                                      :attributes:
+                                        :alt: ''
+                                        :height: '134'
+                                        :src: '/backend/contents/relation_site/bn_tieup01.jpg'
+                                        :width: '206'
+                            - :name: 'p'
+                              :children:
+                                - :name: 'iframe'
+                                  :attributes:
+                                    :alt: ''
+                                    :frameborder: '0'
+                                    :height: '242'
+                                    :src: '/contents/roomfile/read_iframe_m.html'
+                                    :style: 'background-color:#FFFFFF;'
+                                    :width: '206'
+                            - :name: 'p'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://www.hometrip.jp/'
+                                    :target: '_blank'
+                                  :children:
+                                    - :name: 'img'
+                                      :attributes:
+                                        :alt: ''
+                                        :height: '143'
+                                        :src: '/backend/contents/relation_site/r-column_tieup03.jpg'
+                                        :width: '206'
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - sideBox
+                    :id: 'side-mobile'
+                  :children:
+                    - :name: 'p'
+                      :attributes:
+                        :class:
+                          - read
+                      :children:
+                        - :name: 'br'
+                    - :name: 'ul'
+                      :attributes:
+                        :class:
+                          - simple
+                      :children:
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :class:
+                                  - withThumb
+                                :href: 'http://www.athome.co.jp/service/iphone/'
+                                :target: '_blank'
+                              :children:
+                                - :name: 'p'
+                                  :attributes:
+                                    :class:
+                                      - thumb
+                                  :children:
+                                    - :name: 'img'
+                                      :attributes:
+                                        :alt: ''
+                                        :height: '73'
+                                        :src: '/images/std/side/img_side_mobile_smp.jpg'
+                                        :width: '67'
+                                - :name: 'p'
+                                  :attributes:
+                                    :class:
+                                      - title
+                                  :children:
+                                    - :name: 'br'
+                                - :name: 'p'
+                                  :attributes:
+                                    :class:
+                                      - desc
+        - :name: 'p'
+          :attributes:
+            :id: 'toPageTop'
+          :children:
+            - :name: 'a'
+              :attributes:
+                :href: '#'
+              :children:
+                - :name: 'img'
+                  :attributes:
+                    :alt: 'このページの一番上へ'
+                    :height: '52'
+                    :src: '/images/std/common/bt_to_pagetop.png'
+                    :width: '52'
+        - :name: 'div'
+          :attributes:
+            :id: 'prefLinks'
+          :children:
+            - :name: 'section'
+              :attributes:
+                :class:
+                  - clr
+                :id: 'prefLinks-inner'
+              :children:
+                - :name: 'h3'
+                  :attributes:
+                    :class:
+                      - heading
+                    :id: 'prefLinks-title'
+                - :name: 'dl'
+                  :children:
+                    - :name: 'dt'
+                    - :name: 'dd'
+                      :attributes:
+                        :class:
+                          - last
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/hokkaido/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/hokkaido/sapporo-locate/'
+                    - :name: 'dt'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/tokyo/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/kanagawa/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/kanagawa/yokohama-locate/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/kanagawa/kawasaki-locate/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/kanagawa/sagamihara-locate/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/chiba/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/chiba/chiba-locate/'
+                    - :name: 'br'
+                    - :name: 'dt'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/saitama/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/saitama/saitama-locate/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/gunma/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/tochigi/'
+                    - :name: 'dd'
+                      :attributes:
+                        :class:
+                          - last
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/ibaraki/'
+                    - :name: 'dt'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/aichi/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/aichi/nagoya-locate/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/shizuoka/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/shizuoka/shizuoka-locate/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/shizuoka/hamamatsu-locate/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/gifu/'
+                    - :name: 'dd'
+                      :attributes:
+                        :class:
+                          - last
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/mie/'
+                    - :name: 'dt'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/hiroshima/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/hiroshima/hiroshima-locate/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/okayama/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/okayama/okayama-locate/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/tottori/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/shimane/'
+                    - :name: 'dd'
+                      :attributes:
+                        :class:
+                          - last
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/yamaguchi/'
+                    - :name: 'dt'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/fukuoka/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/fukuoka/fukuoka-locate/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/fukuoka/kitakyushu-locate/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/saga/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/nagasaki/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/oita/'
+                    - :name: 'br'
+                    - :name: 'dt'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/kumamoto/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/kumamoto/kumamoto-locate/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/miyazaki/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/kagoshima/'
+                    - :name: 'dd'
+                      :attributes:
+                        :class:
+                          - last
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/okinawa/'
+                - :name: 'dl'
+                  :children:
+                    - :name: 'dt'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/aomori/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/iwate/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/akita/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/miyagi/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/miyagi/sendai-locate/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/yamagata/'
+                    - :name: 'dd'
+                      :attributes:
+                        :class:
+                          - last
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/fukushima/'
+                    - :name: 'dt'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/yamanashi/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/nagano/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/niigata/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/niigata/niigata-locate/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/ishikawa/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/toyama/'
+                    - :name: 'dd'
+                      :attributes:
+                        :class:
+                          - last
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/fukui/'
+                    - :name: 'dt'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/osaka/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/osaka/sakai-locate/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/osaka/osaka-locate/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/hyogo/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/hyogo/kobe-locate/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/kyoto/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/kyoto/kyoto-locate/'
+                    - :name: 'br'
+                    - :name: 'dt'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/shiga/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/nara/'
+                    - :name: 'dd'
+                      :attributes:
+                        :class:
+                          - last
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/wakayama/'
+                    - :name: 'dt'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/kagawa/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/ehime/'
+                    - :name: 'dd'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/tokushima/'
+                    - :name: 'dd'
+                      :attributes:
+                        :class:
+                          - last
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/kochi/'
+        - :name: 'div'
+          :attributes:
+            :id: 'globalLinks'
+          :children:
+            - :name: 'div'
+              :attributes:
+                :id: 'globalLinks-inner'
+              :children:
+                - :name: 'section'
+                  :attributes:
+                    :class:
+                      - wrap
+                      - pie
+                    :id: 'globalLinks-search'
+                  :children:
+                    - :name: 'h3'
+                      :attributes:
+                        :class:
+                          - heading
+                          - title
+                        :id: 'globalLinks-search_title'
+                    - :name: 'dl'
+                      :attributes:
+                        :class:
+                          - clr
+                      :children:
+                        - :name: 'dt'
+                        - :name: 'dd'
+                          :children:
+                            - :name: 'p'
+                              :children:
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/chintai/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/chintai/mansion/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/chintai/apart/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/chintai/kodate/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/rent/03/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/rent/04/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/rent/02/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/rent/05/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/rent/06/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/forstudents/gakuseikaikan/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/short_krsp/'
+                    - :name: 'dl'
+                      :attributes:
+                        :class:
+                          - clr
+                      :children:
+                        - :name: 'dt'
+                        - :name: 'dd'
+                          :children:
+                            - :name: 'p'
+                              :children:
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/mansion/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :class:
+                                          - ico
+                                          - blank
+                                        :href: 'http://www.athome.co.jp/clasoa_mansion/'
+                                        :target: '_blank'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/mansion/chuko/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/kodate/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/kodate/shinchiku/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/kodate/chuko/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/tochi/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :class:
+                                          - ico
+                                          - blank
+                                        :href: 'http://kankocho-athome.jp/'
+                                        :target: '_blank'
+                    - :name: 'dl'
+                      :attributes:
+                        :class:
+                          - clr
+                      :children:
+                        - :name: 'dt'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/biz/'
+                        - :name: 'dd'
+                          :children:
+                            - :name: 'p'
+                              :children:
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/sell/15/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/sell/16/'
+                                - :name: 'span'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://www.athome.co.jp/sell/17/'
+                - :name: 'section'
+                  :attributes:
+                    :class:
+                      - wrap
+                      - pie
+                    :id: 'globalLinks-service'
+                  :children:
+                    - :name: 'h3'
+                      :attributes:
+                        :class:
+                          - heading
+                          - title
+                        :id: 'globalLinks-service_title'
+                    - :name: 'ul'
+                      :attributes:
+                        :class:
+                          - inlineList
+                      :children:
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/estate/'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/bldg-library/'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :class:
+                                  - ico
+                                  - blank
+                                :href: 'http://toushi-athome.jp'
+                                :target: '_blank'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :class:
+                                  - ico
+                                  - blank
+                                :href: 'http://resort-athome.jp'
+                                :target: '_blank'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/assess/'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/hikkoshi/'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/vox/'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/tobira/'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :class:
+                                  - ico
+                                  - blank
+                                :href: 'http://www.athome-academy.jp/'
+                                :target: '_blank'
+        - :name: 'div'
+          :attributes:
+            :id: 'footer'
+          :children:
+            - :name: 'div'
+              :attributes:
+                :id: 'footer-inner'
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - nav
+                      - clr
+                  :children:
+                    - :name: 'ul'
+                      :attributes:
+                        :class:
+                          - inlineList
+                        :id: 'footer-info'
+                      :children:
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/help/pdh/'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/help/kiyaku.html'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/help/linkpolicy/'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/help/tax/'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/atweb_static/athome/customer.html'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/sitemap/'
+                    - :name: 'ul'
+                      :attributes:
+                        :class:
+                          - inlineList
+                        :id: 'footer-link'
+                      :children:
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://athome-inc.jp/'
+                                :target: '_blank'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://athome-inc.jp/recruit/'
+                                :target: '_blank'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: '/help/faq/'
+                - :name: 'p'
+                  :attributes:
+                    :id: 'copyright'
+                  :children:
+                    - :name: 'img'
+                      :attributes:
+                        :alt: 'アットホーム'
+                        :height: '23'
+                        :src: '/images/std/global/logo_footer.gif'
+                        :width: '64'
+        - :name: 'script'
+          :attributes:
+            :charset: 'UTF-8'
+            :language: 'JavaScript'
+            :src: '//o.advg.jp/ojs?aid=5202&pid=5'
+            :type: 'text/javascript'
+        - :name: 'noscript'
+          :children:
+            - :name: 'iframe'
+              :attributes:
+                :height: '1'
+                :src: '//o.advg.jp/oif?aid=5202&pid=5'
+                :width: '1'
+        - :name: 'script'
+          :attributes:
+            :type: 'text/javascript'
+        - :name: 'noscript'
+          :children:
+            - :name: 'iframe'
+              :attributes:
+                :height: '0'
+                :src: '//www.googletagmanager.com/ns.html?id=GTM-5G7Z38'
+                :style: 'display:none;visibility:hidden'
+                :width: '0'
+        - :name: 'script'
+        - :name: 'noscript'
+          :children:
+            - :name: 'iframe'
+              :attributes:
+                :height: '0'
+                :src: '//www.googletagmanager.com/ns.html?id=GTM-TLBX4T'
+                :style: 'display:none;visibility:hidden'
+                :width: '0'
+        - :name: 'script'
+        - :name: 'script'
+          :attributes:
+            :type: 'text/javascript'
+        - :name: 'noscript'
+          :children:
+            - :name: 'iframe'
+              :attributes:
+                :frameborder: '0'
+                :height: '1'
+                :marginheight: '0'
+                :marginwidth: '0'
+                :scrolling: 'no'
+                :src: '//b.yjtag.jp/iframe?c=4jt3rRq,KhD5T8R,pmhP1pB,1zlYhWz,tglVbEW,OjLZRoD,vCLUyu3,qWeatJN,sapcTXS,vExONTl'
+                :width: '1'

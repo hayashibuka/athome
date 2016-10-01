@@ -1,0 +1,1924 @@
+- :name: 'html'
+  :attributes:
+    :lang: 'ja'
+  :children:
+    - :name: 'head'
+      :children:
+        - :name: 'meta'
+          :attributes:
+            :charset: 'utf-8'
+        - :name: 'title'
+        - :name: 'meta'
+          :attributes:
+            :content: '住宅ローン減税で今が買い時のマンション購入情報が満載。新築マンション・分譲マンションを探すならアットホーム新築マンションPLEASEにお任せ！お好みのマンションがきっと見つかります。気になるマンションはその場で一括資料請求！'
+            :name: 'description'
+        - :name: 'meta'
+          :attributes:
+            :content: '全国版,マンション,新築マンション,分譲マンション,マンション購入'
+            :name: 'keywords'
+        - :name: 'meta'
+          :attributes:
+            :content: 'width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0'
+            :name: 'viewport'
+        - :name: 'meta'
+          :attributes:
+            :content: 'area'
+            :name: 'RT_PAGE_TYPE'
+        - :name: 'meta'
+          :attributes:
+            :content: 'telephone=no'
+            :name: 'format-detection'
+        - :name: 'link'
+          :attributes:
+            :href: 'http://www.athome.co.jp/clasoa_mansion/'
+            :rel:
+              - canonical
+        - :name: 'link'
+          :attributes:
+            :href: '/smt_design_mansion/images/common/web_clip_icon.png?v=1'
+            :rel:
+              - apple-touch-icon-precomposed
+        - :name: 'link'
+          :attributes:
+            :href: '/smt_design_mansion/images/common/web_clip_icon.png?v=1'
+            :rel:
+              - apple-touch-icon-precomposed
+            :sizes: '57x57'
+        - :name: 'link'
+          :attributes:
+            :href: '/smt_design_mansion/images/common/web_clip_icon.png?v=1'
+            :rel:
+              - apple-touch-icon-precomposed
+            :sizes: '114x114'
+        - :name: 'link'
+          :attributes:
+            :href: '/smt_design_mansion/images/common/web_clip_icon.png?v=1'
+            :rel:
+              - apple-touch-icon-precomposed
+            :sizes: '72x72'
+        - :name: 'link'
+          :attributes:
+            :href: '/smt_design_mansion/images/common/web_clip_icon.png?v=1'
+            :rel:
+              - apple-touch-icon-precomposed
+            :sizes: '144x144'
+        - :name: 'link'
+          :attributes:
+            :href: '/smt_design_mansion/images/common/favicon.ico?v=1'
+            :rel:
+              - icon
+            :type: 'image/x-icon'
+        - :name: 'link'
+          :attributes:
+            :href: '/smt_design_mansion/css/screen.css?v=4'
+            :rel:
+              - stylesheet
+        - :name: 'script'
+          :attributes:
+            :src: '/smt_design_mansion/js/jquery-1.8.3.js?v=4'
+        - :name: 'script'
+          :attributes:
+            :src: '/smt_design_mansion/js/flipsnap.min.js?v=4'
+        - :name: 'script'
+          :attributes:
+            :src: '/smt_design_mansion/js/jquery.alerts.js?v=4'
+        - :name: 'script'
+          :attributes:
+            :src: '/smt_design_mansion/js/CampaignLoger.js?v=4'
+        - :name: 'script'
+          :attributes:
+            :type: 'text/javascript'
+        - :name: 'script'
+          :attributes:
+            :type: 'text/javascript'
+        - :name: 'script'
+          :attributes:
+            :charset: 'utf-8'
+            :type: 'text/javascript'
+        - :name: 'script'
+          :attributes:
+            :charset: 'utf-8'
+            :type: 'text/javascript'
+    - :name: 'body'
+      :attributes:
+        :class:
+          - 
+        :id: 'top'
+      :children:
+        - :name: 'header'
+          :children:
+            - :name: 'h1'
+              :attributes:
+                :class:
+                  - clear
+              :children:
+                - :name: 'a'
+                  :attributes:
+                    :href: 'http://www.athome.co.jp/smt/mansion/'
+                  :children:
+                    - :name: 'img'
+                      :attributes:
+                        :alt: 'アットホーム 新築マンション'
+                        :src: '/smt_design_mansion/images/common/at_logo.png'
+            - :name: 'nav'
+              :attributes:
+                :class:
+                  - clear
+              :children:
+                - :name: 'ul'
+                  :attributes:
+                    :class:
+                      - header_nav
+                  :children:
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - top
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/smt/mansion/'
+                          :children:
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - ui-icon
+                                  - ui-icon-center
+                                  - ui-icon-top
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - mylist
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/smt/mansion/mylist/'
+                          :children:
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - header_icon
+                                  - color_red
+                              :children:
+                                - :name: 'img'
+                                  :attributes:
+                                    :alt: ''
+                                    :src: '/smt_design_mansion/images/common/ico_fav.png'
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - header_icon_count
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - mail_magazine
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'https://www.athome.co.jp/smt/mansion/mail/'
+                          :children:
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - ui-icon
+                                  - ui-icon-center
+                                  - ui-icon-mail
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - text
+            - :name: 'hr'
+              :attributes:
+                :class:
+                  - gold_gradation_top
+        - :name: 'div'
+          :attributes:
+            :class:
+              - infomation_and_campaign
+          :children:
+            - :name: 'ul'
+              :attributes:
+                :class:
+                  - information_list
+                  - clear
+              :children:
+                - :name: 'li'
+                  :attributes:
+                    :class:
+                      - full
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://app-adforce.jp/ad/p/r?_site=23466&_article=136733&_link=2865675&_image=2803884'
+                        :target: '_blank'
+                      :children:
+                        - :name: 'img'
+                          :attributes:
+                            :alt: ''
+                            :src: '/smt_design_mansion/images/banner/ban_smt_appli.jpg'
+        - :name: 'div'
+          :attributes:
+            :class:
+              - search_area
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - bar_white_line
+                  - clear
+              :children:
+                - :name: 'span'
+                  :attributes:
+                    :class:
+                      - ui-icon
+                      - ui-icon-l
+                      - ui-icon-search-black
+                - :name: 'p'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - bar_gold_line
+              :children:
+                - :name: 'p'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - search_area_tiiki
+              :children:
+                - :name: 'ul'
+                  :attributes:
+                    :class:
+                      - simple_list
+                      - clear
+                  :children:
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/shutoken/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                      - center
+                                      - fontsize-big
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - half
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/hokkaido-tohoku/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - half
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/shinetsu-hokuriku/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - half
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/kinki/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - half
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/tokai/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - half
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/kyushu-okinawa/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - half
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/chugoku-shikoku/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+        - :name: 'div'
+          :attributes:
+            :class:
+              - dfp_banner
+              - clear
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - dfp_banner_wrapper
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - dfp_image_wrapper
+                  :children:
+                    - :name: 'ul'
+                      :attributes:
+                        :class:
+                          - flipsnap
+                      :children:
+                        - :name: 'li'
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :id: 'div-gpt-ad-top01'
+                              :children:
+                                - :name: 'script'
+                                  :attributes:
+                                    :type: 'text/javascript'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :id: 'div-gpt-ad-top02'
+                              :children:
+                                - :name: 'script'
+                                  :attributes:
+                                    :type: 'text/javascript'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :id: 'div-gpt-ad-top03'
+                              :children:
+                                - :name: 'script'
+                                  :attributes:
+                                    :type: 'text/javascript'
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - dfp_prev_btn_area
+                  :children:
+                    - :name: 'span'
+                      :attributes:
+                        :class:
+                          - ui-icon
+                          - ui-icon-l
+                          - ui-icon-arrow-big-gray-l
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - dfp_next_btn_area
+                  :children:
+                    - :name: 'span'
+                      :attributes:
+                        :class:
+                          - ui-icon
+                          - ui-icon-r
+                          - ui-icon-arrow-big-gray-r
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - pointer
+                  - clear
+              :children:
+                - :name: 'p'
+                  :attributes:
+                    :class:
+                      - current
+                  :children:
+                    - :name: 'span'
+                      :attributes:
+                        :class:
+                          - ui-icon
+                          - ui-icon-center
+                          - ui-icon-radio-blue-on
+                - :name: 'p'
+                  :children:
+                    - :name: 'span'
+                      :attributes:
+                        :class:
+                          - ui-icon
+                          - ui-icon-center
+                          - ui-icon-radio-blue-off
+                - :name: 'p'
+                  :children:
+                    - :name: 'span'
+                      :attributes:
+                        :class:
+                          - ui-icon
+                          - ui-icon-center
+                          - ui-icon-radio-blue-off
+        - :name: 'div'
+          :attributes:
+            :class:
+              - search_feature
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - bar_white_line
+                  - clear
+              :children:
+                - :name: 'span'
+                  :attributes:
+                    :class:
+                      - ui-icon
+                      - ui-icon-l
+                      - ui-icon-search-black
+                - :name: 'p'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - search_feature_list
+              :children:
+                - :name: 'ul'
+                  :attributes:
+                    :class:
+                      - simple_list
+                      - clear
+                  :children:
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1894/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1912/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1897/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - go_tokutyou_btn
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - go_tokutyou_btn_wrapper
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://www.athome.co.jp/smt/mansion/feature/shutoken/'
+                      :children:
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - ui-icon
+                              - ui-icon-r
+                              - ui-icon-arrow-blue-r
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - text
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - bar_white_line
+                  - clear
+              :children:
+                - :name: 'span'
+                  :attributes:
+                    :class:
+                      - ui-icon
+                      - ui-icon-l
+                      - ui-icon-search-black
+                - :name: 'p'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - search_feature_list
+              :children:
+                - :name: 'ul'
+                  :attributes:
+                    :class:
+                      - simple_list
+                      - clear
+                  :children:
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2033/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2037/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2035/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - go_tokutyou_btn
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - go_tokutyou_btn_wrapper
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://www.athome.co.jp/smt/mansion/feature/kinki/'
+                      :children:
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - ui-icon
+                              - ui-icon-r
+                              - ui-icon-arrow-blue-r
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - text
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - bar_white_line
+                  - clear
+              :children:
+                - :name: 'span'
+                  :attributes:
+                    :class:
+                      - ui-icon
+                      - ui-icon-l
+                      - ui-icon-search-black
+                - :name: 'p'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - search_feature_list
+              :children:
+                - :name: 'ul'
+                  :attributes:
+                    :class:
+                      - simple_list
+                      - clear
+                  :children:
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2190/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2189/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2191/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - go_tokutyou_btn
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - go_tokutyou_btn_wrapper
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://www.athome.co.jp/smt/mansion/feature/tokai/'
+                      :children:
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - ui-icon
+                              - ui-icon-r
+                              - ui-icon-arrow-blue-r
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - text
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - bar_white_line
+                  - clear
+              :children:
+                - :name: 'span'
+                  :attributes:
+                    :class:
+                      - ui-icon
+                      - ui-icon-l
+                      - ui-icon-search-black
+                - :name: 'p'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - search_feature_list
+              :children:
+                - :name: 'ul'
+                  :attributes:
+                    :class:
+                      - simple_list
+                      - clear
+                  :children:
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/special_mitsui/parkhomes/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2163/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/renovation/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/sc/12/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/main_terminal/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2039/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/ueno_tokyo_line/takasaki_tokaido/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - bar_white_line
+                  - clear
+              :children:
+                - :name: 'span'
+                  :attributes:
+                    :class:
+                      - ui-icon
+                      - ui-icon-l
+                      - ui-icon-search-black
+                - :name: 'p'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - search_feature_list
+              :children:
+                - :name: 'ul'
+                  :attributes:
+                    :class:
+                      - simple_list
+                      - clear
+                  :children:
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1545/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/3a1r/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/kanagawa/yokohamabayarea/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/kanagawa/shonan/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/kanagawa/kohokunewtown/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/chiba/chibabayarea/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - go_feature_btn
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - go_feature_btn_wrapper
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://www.athome.co.jp/smt/mansion/feature/'
+                      :children:
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - ui-icon
+                              - ui-icon-r
+                              - ui-icon-arrow-blue-r
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - text
+        - :name: 'div'
+          :attributes:
+            :class:
+              - search_tokutyou
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - bar_white_line
+                  - clear
+              :children:
+                - :name: 'span'
+                  :attributes:
+                    :class:
+                      - ui-icon
+                      - ui-icon-l
+                      - ui-icon-search-black
+                - :name: 'p'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - search_feature_list
+              :children:
+                - :name: 'ul'
+                  :attributes:
+                    :class:
+                      - simple_list
+                      - clear
+                  :children:
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/kakaku/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/madori/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/tower/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/lowrise/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - go_tokutyou_btn
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - go_tokutyou_btn_wrapper
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://www.athome.co.jp/smt/mansion/theme/'
+                      :children:
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - ui-icon
+                              - ui-icon-r
+                              - ui-icon-arrow-blue-r
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - text
+        - :name: 'div'
+          :attributes:
+            :class:
+              - dfp_top_banner
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - dfp_top_banner_wrapper
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :id: 'div-gpt-ad-210_bottom01'
+                  :children:
+                    - :name: 'script'
+                      :attributes:
+                        :type: 'text/javascript'
+                - :name: 'div'
+                  :attributes:
+                    :id: 'div-gpt-ad-210_bottom02'
+                  :children:
+                    - :name: 'script'
+                      :attributes:
+                        :type: 'text/javascript'
+        - :name: 'div'
+          :attributes:
+            :class:
+              - sns_button_area
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - sns_button_area_header_text
+              :children:
+                - :name: 'p'
+            - :name: 'ul'
+              :attributes:
+                :class:
+                  - sns_button_list
+                  - clear
+              :children:
+                - :name: 'li'
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - sns_facebook_btn
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'https://m.facebook.com/profile.php?id=615487781905879&_rdr'
+                            :onclick: 'CampaignClickLog(8577, '''');'
+                            :target: '_blank'
+                          :children:
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - ui-icon
+                                  - ui-icon-center-l
+                                  - ui-icon-sns-facebook
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - ui-icon
+                                  - ui-icon-center-r
+                                  - ui-icon-text-pleaseofficial
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - ui-icon
+                                  - ui-icon-center-r
+                                  - ui-icon-text-facebook
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - sns_button_click_space
+                - :name: 'li'
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - sns_twitter_btn
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'https://mobile.twitter.com/athome_please'
+                            :onclick: 'CampaignClickLog(8578, '''');'
+                            :target: '_blank'
+                          :children:
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - ui-icon
+                                  - ui-icon-center-l
+                                  - ui-icon-sns-twitter
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - ui-icon
+                                  - ui-icon-center-r
+                                  - ui-icon-text-pleaseofficial
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - ui-icon
+                                  - ui-icon-center-r
+                                  - ui-icon-text-twitter
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - sns_button_click_space
+                - :name: 'li'
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - sns_googleplus_btn
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'https://plus.google.com/app/basic/110514071355690799470/posts'
+                            :onclick: 'CampaignClickLog(8579, '''');'
+                            :target: '_blank'
+                          :children:
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - ui-icon
+                                  - ui-icon-center-l
+                                  - ui-icon-sns-googleplus
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - ui-icon
+                                  - ui-icon-center-r
+                                  - ui-icon-text-pleaseofficial
+                            - :name: 'span'
+                              :attributes:
+                                :class:
+                                  - ui-icon
+                                  - ui-icon-center-r
+                                  - ui-icon-text-googleplus
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - sns_button_click_space
+        - :name: 'div'
+          :attributes:
+            :class:
+              - talkie_banner
+          :children:
+            - :name: 'a'
+              :attributes:
+                :href: 'http://www.athome.co.jp/smt/mansion/talkie/lp/?rt=smtbtm_bn'
+                :target: '_blank'
+              :children:
+                - :name: 'img'
+                  :attributes:
+                    :alt: ''
+                    :src: '/smt_design_mansion/images/banner/talkie/ban_talkie_top.jpg'
+        - :name: 'div'
+          :attributes:
+            :class:
+              - footer
+          :children:
+            - :name: 'hr'
+              :attributes:
+                :class:
+                  - gold_gradation_bottom
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - link
+                  - clear
+              :children:
+                - :name: 'ul'
+                  :children:
+                    - :name: 'li'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/smt/mansion/'
+                          :children:
+                            - :name: 'span'
+                    - :name: 'li'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/smt/athome/customer.html'
+                            :target: '_blank'
+                          :children:
+                            - :name: 'span'
+                    - :name: 'li'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/smt/mansion/sitemap/'
+                          :children:
+                            - :name: 'span'
+                    - :name: 'li'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/smt/athome/pdh.html'
+                            :target: '_blank'
+                          :children:
+                            - :name: 'span'
+                    - :name: 'li'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/smt/athome/kiyaku.html'
+                            :target: '_blank'
+                          :children:
+                            - :name: 'span'
+                    - :name: 'li'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/help/linkpolicy/'
+                            :target: '_blank'
+                          :children:
+                            - :name: 'span'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - to_pc_site
+                  - clear
+              :children:
+                - :name: 'p'
+                  :attributes:
+                    :class:
+                      - pclink
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://www.athome.co.jp/clasoa_mansion/'
+                      :children:
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - pc_button
+                          :children:
+                            - :name: 'img'
+                              :attributes:
+                                :alt: ''
+                                :src: '/smt_design_mansion/images/icon/ico_pc.png'
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - text
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - link_tax
+                  - clear
+              :children:
+                - :name: 'ul'
+                  :children:
+                    - :name: 'li'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.athome.co.jp/smt/mansion/info/tax/'
+                          :children:
+                            - :name: 'span'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - text
+              :children:
+                - :name: 'p'
+                - :name: 'p'
+                  :attributes:
+                    :class:
+                      - copyright
+        - :name: 'script'
+          :attributes:
+            :src: '/smt_design_mansion/js/main.js?v=7'
+        - :name: 'script'
+          :attributes:
+            :type: 'text/javascript'
+        - :name: 'noscript'
+          :children:
+            - :name: 'iframe'
+              :attributes:
+                :height: '0'
+                :src: '//www.googletagmanager.com/ns.html?id=GTM-5G7Z38'
+                :style: 'display:none;visibility:hidden'
+                :width: '0'
+        - :name: 'script'
+        - :name: 'noscript'
+          :children:
+            - :name: 'iframe'
+              :attributes:
+                :height: '0'
+                :src: '//www.googletagmanager.com/ns.html?id=GTM-MC8VLH'
+                :style: 'display:none;visibility:hidden'
+                :width: '0'
+        - :name: 'script'
+        - :name: 'script'
+          :attributes:
+            :type: 'text/javascript'
+        - :name: 'noscript'
+          :children:
+            - :name: 'iframe'
+              :attributes:
+                :frameborder: '0'
+                :height: '1'
+                :marginheight: '0'
+                :marginwidth: '0'
+                :scrolling: 'no'
+                :src: '//b.yjtag.jp/iframe?c=CVJDnOm,ywhzziO,KhD5T8R,OjLZRoD'
+                :width: '1'
+        - :name: 'script'
+          :attributes:
+            :charset: 'UTF-8'
+            :language: 'JavaScript'
+            :src: '//o.advg.jp/ojs?aid=5202&pid=17&key='
+            :type: 'text/javascript'
+        - :name: 'noscript'
+          :children:
+            - :name: 'iframe'
+              :attributes:
+                :height: '1'
+                :src: '//o.advg.jp/oif?aid=5202&pid=17'
+                :width: '1'
