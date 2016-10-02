@@ -1750,12 +1750,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/chuo-line/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/seibushinjuku-line/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/seibushinjuku-line/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/chuo-line/list/'
                         - :name: 'div'
                           :attributes:
                             :class:
@@ -1819,22 +1819,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/hatagaya-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/araiyakushimae-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/daitabashi-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/chintai/tokyo/ogikubo-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/honancho-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -1844,7 +1834,17 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/shinnakano-st/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/daitabashi-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/araiyakushimae-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/higashikoenji-st/list/'
                     - :name: 'p'
                       :attributes:
                         :id: 'seo-text'
