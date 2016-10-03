@@ -2995,7 +2995,7 @@
                                   :attributes:
                                     :id: 'dev-totalCount'
                                     :type: 'hidden'
-                                    :value: '16'
+                                    :value: '15'
                                 - :name: 'script'
                     - :name: 'section'
                       :attributes:
@@ -3578,7 +3578,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/mansion/1034660822/?DOWN=2&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
+                                        :href: 'http://www.athome.co.jp/mansion/6961428697/?DOWN=2&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
                                         :target: '_blank'
                                       :children:
                                         - :name: 'p'
@@ -3593,40 +3593,7 @@
                                             - :name: 'img'
                                               :attributes:
                                                 :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/1034660822/2.jpeg?width=160&height=160&margin=true'
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - desc1
-                                              - desc
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - desc2
-                                              - desc
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - item
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :href: 'http://www.athome.co.jp/mansion/1020966219/?DOWN=2&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
-                                        :target: '_blank'
-                                      :children:
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - title
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - thumb
-                                          :children:
-                                            - :name: 'img'
-                                              :attributes:
-                                                :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/1020966219/2.jpeg?width=160&height=160&margin=true'
+                                                :src: 'http://img3.athome.jp/image_files/index/bukken/6961428697/2.jpeg?width=160&height=160&margin=true'
                                         - :name: 'p'
                                           :attributes:
                                             :class:
@@ -4389,17 +4356,17 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/ota-city/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/chuo-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/itabashi-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/ota-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -4532,12 +4499,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/azabujuban-st/list/'
+                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/omori-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/omori-st/list/'
+                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/azabujuban-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -4557,22 +4524,22 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/tamachi-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/ueno-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/shirokanetakanawa-st/list/'
+                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/tamachi-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/roppongi-st/list/'
+                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/shibuya-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/shinagawa-st/list/'
                     - :name: 'div'
                       :attributes:
                         :class:

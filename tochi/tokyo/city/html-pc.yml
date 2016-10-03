@@ -3747,12 +3747,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/chofu-city/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/bunkyo-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/toshima-city/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/chofu-city/list/'
                         - :name: 'div'
                           :attributes:
                             :class:
@@ -3806,12 +3806,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/keioinokashira-line/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/odakyuodawara-line/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/odakyuodawara-line/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/toeioedo-line/list/'
                         - :name: 'div'
                           :attributes:
                             :class:
@@ -3850,11 +3850,6 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/oizumigakuen-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/tochi/tokyo/jiyugaoka-st/list/'
                                         - :name: 'li'
                                           :children:
@@ -3865,7 +3860,17 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/oizumigakuen-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/tochi/tokyo/kameari-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/denenchofu-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -3880,27 +3885,22 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/shimokitazawa-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/tochi/tokyo/seijogakuemmae-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/denenchofu-st/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/shimokitazawa-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/fujimigaoka-st/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/chitosefunabashi-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/tsutsujigaoka-st/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/chitosekarasuyama-st/list/'
                     - :name: 'div'
                       :attributes:
                         :class:
