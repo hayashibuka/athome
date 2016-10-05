@@ -2492,22 +2492,22 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/ota-city/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/chintai/tokyo/shinjuku-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/itabashi-city/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/ota-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://www.athome.co.jp/chintai/tokyo/toshima-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/itabashi-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -2571,12 +2571,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/yamanote-line/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/sobu-line/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/sobu-line/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/yamanote-line/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -2660,7 +2660,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/honancho-st/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/higashinakano-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -2670,12 +2670,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/higashinakano-st/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/meidaimae-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/higashikoenji-st/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/kanamecho-st/list/'
                     - :name: 'div'
                       :attributes:
                         :id: 'seo-text'

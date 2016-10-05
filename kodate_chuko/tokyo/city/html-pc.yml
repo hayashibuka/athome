@@ -4999,11 +4999,6 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/ota-city/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/suginami-city/list/'
                                         - :name: 'li'
                                           :children:
@@ -5014,7 +5009,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/itabashi-city/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/ota-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -5024,17 +5019,22 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/itabashi-city/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/katsushika-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/meguro-city/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/adachi-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/adachi-city/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/meguro-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -5083,12 +5083,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/toeimita-line/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/sobu-line/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/sobu-line/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/toeimita-line/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -5098,7 +5098,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/tokyutoyoko-line/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/odakyuodawara-line/list/'
                         - :name: 'div'
                           :attributes:
                             :class:
@@ -5132,11 +5132,6 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/kamiitabashi-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/ichinoe-st/list/'
                                         - :name: 'li'
                                           :children:
@@ -5147,12 +5142,17 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/kaminoge-st/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/oji-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/oji-st/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/kamiitabashi-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/kaminoge-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -5163,6 +5163,11 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/narimasu-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/soshigayaokura-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -5182,12 +5187,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/soshigayaokura-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/shimokitazawa-st/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/nishiogikubo-st/list/'
                     - :name: 'div'
                       :attributes:
                         :class:

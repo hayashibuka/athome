@@ -608,35 +608,6 @@
                           :children:
                             - :name: 'a'
                               :attributes:
-                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1893/'
-                              :children:
-                                - :name: 'span'
-                                  :attributes:
-                                    :class:
-                                      - ui-icon
-                                      - ui-icon-r
-                                      - ui-icon-arrow-blue-r
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - text_wrapper
-                                  :children:
-                                    - :name: 'span'
-                                      :attributes:
-                                        :class:
-                                          - text
-                    - :name: 'li'
-                      :attributes:
-                        :class:
-                          - full
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - simple_list_box_wrapper
-                          :children:
-                            - :name: 'a'
-                              :attributes:
                                 :href: 'http://www.athome.co.jp/smt/mansion/feature/1904/'
                               :children:
                                 - :name: 'span'
@@ -666,7 +637,36 @@
                           :children:
                             - :name: 'a'
                               :attributes:
-                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1902/'
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1898/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1915/'
                               :children:
                                 - :name: 'span'
                                   :attributes:
@@ -743,35 +743,6 @@
                           :children:
                             - :name: 'a'
                               :attributes:
-                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2029/'
-                              :children:
-                                - :name: 'span'
-                                  :attributes:
-                                    :class:
-                                      - ui-icon
-                                      - ui-icon-r
-                                      - ui-icon-arrow-blue-r
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - text_wrapper
-                                  :children:
-                                    - :name: 'span'
-                                      :attributes:
-                                        :class:
-                                          - text
-                    - :name: 'li'
-                      :attributes:
-                        :class:
-                          - full
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - simple_list_box_wrapper
-                          :children:
-                            - :name: 'a'
-                              :attributes:
                                 :href: 'http://www.athome.co.jp/smt/mansion/feature/2036/'
                               :children:
                                 - :name: 'span'
@@ -802,6 +773,35 @@
                             - :name: 'a'
                               :attributes:
                                 :href: 'http://www.athome.co.jp/smt/mansion/feature/2033/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2202/'
                               :children:
                                 - :name: 'span'
                                   :attributes:
@@ -878,7 +878,7 @@
                           :children:
                             - :name: 'a'
                               :attributes:
-                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2187/'
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2188/'
                               :children:
                                 - :name: 'span'
                                   :attributes:
@@ -907,7 +907,7 @@
                           :children:
                             - :name: 'a'
                               :attributes:
-                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2191/'
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2190/'
                               :children:
                                 - :name: 'span'
                                   :attributes:
