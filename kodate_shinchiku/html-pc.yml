@@ -46,73 +46,73 @@
               - alternate
         - :name: 'link'
           :attributes:
-            :href: '/css/std/master.css'
+            :href: '/css/std/master.css?v=20161005_003'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/std/lib_css/top.css'
+            :href: '/css/std/lib_css/top.css?v=20161005_003'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/ext/keyword.css'
+            :href: '/css/ext/keyword.css?v=20161005_003'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/std/lib_css/kodate.css'
+            :href: '/css/std/lib_css/kodate.css?v=20161005_003'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery-1.8.3.min.js'
+            :src: '/scripts/std/jquery-1.8.3.min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery.bxslider.min.js'
+            :src: '/scripts/std/jquery.bxslider.min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery.colorbox-min.js'
+            :src: '/scripts/std/jquery.colorbox-min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/common_functions.js'
+            :src: '/scripts/std/common_functions.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common_functions_ext.js'
+            :src: '/scripts/ext/common_functions_ext.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common/cookie.js'
+            :src: '/scripts/ext/common/cookie.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery.bxslider.min.js'
+            :src: '/scripts/std/jquery.bxslider.min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common/ruledeferredfactory.js'
+            :src: '/scripts/ext/common/ruledeferredfactory.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/selectAreaSearch.js'
+            :src: '/scripts/std/selectAreaSearch.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/search/searchSubmit.js'
+            :src: '/scripts/ext/search/searchSubmit.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/search/keyword.js'
+            :src: '/scripts/ext/search/keyword.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/personal_functions.js'
+            :src: '/scripts/personal_functions.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/personal_cond.js'
+            :src: '/scripts/personal_cond.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/html5shiv.min.js'
+            :src: '/scripts/std/html5shiv.min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/respond.min.js'
+            :src: '/scripts/std/respond.min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
             :data-areacd: ''
@@ -122,15 +122,19 @@
             :data-syumokucd: '1201'
             :data-unitname: '/7253/athome/kodate_tochi/'
             :id: 'dfp_form'
-            :src: '/scripts/ext/common/dfp_functions.js'
+            :src: '/scripts/ext/common/dfp_functions.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/login.js'
+            :src: '/scripts/std/login.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/loginparts_editor.js'
+            :src: '/scripts/std/loginparts_editor.js?v=20161005_003'
+            :type: 'text/javascript'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/std/login_menu.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
         - :name: 'script'
@@ -3129,7 +3133,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/kodate/6961439893/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
+                                        :href: 'http://www.athome.co.jp/kodate/1023570018/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
                                         :target: '_blank'
                                       :children:
                                         - :name: 'p'
@@ -3144,7 +3148,7 @@
                                             - :name: 'img'
                                               :attributes:
                                                 :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/6961439893/2.jpeg?width=160&height=160&margin=true'
+                                                :src: 'http://img3.athome.jp/image_files/index/bukken/1023570018/2.jpeg?width=160&height=160&margin=true'
                                         - :name: 'p'
                                           :attributes:
                                             :class:
@@ -3162,7 +3166,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/kodate/6961283928/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
+                                        :href: 'http://www.athome.co.jp/kodate/1034724122/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
                                         :target: '_blank'
                                       :children:
                                         - :name: 'p'
@@ -3177,7 +3181,7 @@
                                             - :name: 'img'
                                               :attributes:
                                                 :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/6961283928/2.jpeg?width=160&height=160&margin=true'
+                                                :src: 'http://img3.athome.jp/image_files/index/bukken/1034724122/1.jpeg?width=160&height=160&margin=true'
                                         - :name: 'p'
                                           :attributes:
                                             :class:
@@ -3195,7 +3199,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/kodate/6961439838/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
+                                        :href: 'http://www.athome.co.jp/kodate/1073115520/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
                                         :target: '_blank'
                                       :children:
                                         - :name: 'p'
@@ -3210,7 +3214,7 @@
                                             - :name: 'img'
                                               :attributes:
                                                 :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/6961439838/2.jpeg?width=160&height=160&margin=true'
+                                                :src: 'http://img3.athome.jp/image_files/index/bukken/1073115520/1.jpeg?width=160&height=160&margin=true'
                                         - :name: 'p'
                                           :attributes:
                                             :class:
@@ -3228,7 +3232,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/kodate/6960497548/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
+                                        :href: 'http://www.athome.co.jp/kodate/8707658402/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
                                         :target: '_blank'
                                       :children:
                                         - :name: 'p'
@@ -3243,7 +3247,7 @@
                                             - :name: 'img'
                                               :attributes:
                                                 :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/6960497548/2.jpeg?width=160&height=160&margin=true'
+                                                :src: 'http://img3.athome.jp/image_files/index/bukken/8707658402/1.jpeg?width=160&height=160&margin=true'
                                         - :name: 'p'
                                           :attributes:
                                             :class:
@@ -3261,7 +3265,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/kodate/9526948901/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
+                                        :href: 'http://www.athome.co.jp/kodate/1017716322/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
                                         :target: '_blank'
                                       :children:
                                         - :name: 'p'
@@ -3276,7 +3280,7 @@
                                             - :name: 'img'
                                               :attributes:
                                                 :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/9526948901/2.jpeg?width=160&height=160&margin=true'
+                                                :src: 'http://img3.athome.jp/image_files/path/no_image?width=160&height=160&margin=true'
                                         - :name: 'p'
                                           :attributes:
                                             :class:
@@ -5606,7 +5610,7 @@
                             :width: '220'
                 - :name: 'script'
                   :attributes:
-                    :src: '/top/scripts/std/youtube.js'
+                    :src: '/top/scripts/std/youtube.js?v=20161005_003'
                 - :name: 'div'
                   :attributes:
                     :class:

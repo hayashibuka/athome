@@ -62,7 +62,7 @@
               - alternate
         - :name: 'link'
           :attributes:
-            :href: '/top/css/std/global.css'
+            :href: '/top/css/std/global.css?v=20161005_002'
             :rel:
               - stylesheet
             :type: 'text/css'
@@ -80,11 +80,15 @@
             :src: '/top/scripts/std/common_functions.js'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/login.js'
+            :src: '/scripts/std/login.js?v=20161005_002'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/loginparts_editor.js'
+            :src: '/scripts/std/loginparts_editor.js?v=20161005_002'
+            :type: 'text/javascript'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/std/login_menu.js?v=20161005_002'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:

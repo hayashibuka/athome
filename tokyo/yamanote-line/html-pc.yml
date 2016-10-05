@@ -40,59 +40,63 @@
             :type: 'image/x-icon'
         - :name: 'link'
           :attributes:
-            :href: '/css/std/master.css'
+            :href: '/css/std/master.css?v=20161005_003'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/std/lib_css/top.css'
+            :href: '/css/std/lib_css/top.css?v=20161005_003'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/std/lib_css/feature.css'
+            :href: '/css/std/lib_css/feature.css?v=20161005_003'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery-1.8.3.min.js'
+            :src: '/scripts/std/jquery-1.8.3.min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery.bxslider.min.js'
+            :src: '/scripts/std/jquery.bxslider.min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery.colorbox-min.js'
+            :src: '/scripts/std/jquery.colorbox-min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/common_functions.js'
+            :src: '/scripts/std/common_functions.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common_functions_ext.js'
+            :src: '/scripts/ext/common_functions_ext.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common/cookie.js'
+            :src: '/scripts/ext/common/cookie.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/personal_functions.js'
+            :src: '/scripts/personal_functions.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/personal_cond.js'
+            :src: '/scripts/personal_cond.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/html5shiv.min.js'
+            :src: '/scripts/std/html5shiv.min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/respond.min.js'
+            :src: '/scripts/std/respond.min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/login.js'
+            :src: '/scripts/std/login.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/loginparts_editor.js'
+            :src: '/scripts/std/loginparts_editor.js?v=20161005_003'
+            :type: 'text/javascript'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/std/login_menu.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
         - :name: 'script'
@@ -2087,7 +2091,7 @@
                             :width: '220'
                 - :name: 'script'
                   :attributes:
-                    :src: '/top/scripts/std/youtube.js'
+                    :src: '/top/scripts/std/youtube.js?v=20161005_003'
                 - :name: 'div'
                   :attributes:
                     :id: 'side-agent'

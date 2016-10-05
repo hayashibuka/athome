@@ -46,42 +46,42 @@
               - icon
         - :name: 'link'
           :attributes:
-            :href: '/smp/css/std/e1/common.css'
+            :href: '/smp/css/std/e1/common.css?v=20161005_003'
             :media: 'screen'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/smp/css/std/e1/component.css'
+            :href: '/smp/css/std/e1/component.css?v=20161005_003'
             :media: 'screen'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/smp/css/std/e1/style.css'
+            :href: '/smp/css/std/e1/style.css?v=20161005_003'
             :media: 'screen'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/smp/css/std/e1/swipebox.css'
+            :href: '/smp/css/std/e1/swipebox.css?v=20161005_003'
             :media: 'screen'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/std/login.css'
+            :href: '/css/std/login.css?v=20161005_003'
             :media: 'screen'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/ext/list/list_favorite.css'
+            :href: '/css/ext/list/list_favorite.css?v=20161005_003'
             :media: 'screen'
             :rel:
               - stylesheet
@@ -102,35 +102,39 @@
             :src: '//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'
         - :name: 'script'
           :attributes:
-            :src: '/smp/scripts/libs/jquery.easing.1.3.js'
+            :src: '/smp/scripts/libs/jquery.easing.1.3.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/smp/scripts/libs/idangerous.swiper-2.0.min.js'
+            :src: '/smp/scripts/libs/idangerous.swiper-2.0.min.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/smp/scripts/libs/jquery.swipebox.min.js'
+            :src: '/smp/scripts/libs/jquery.swipebox.min.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/smp/scripts/smt.js'
+            :src: '/smp/scripts/smt.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/smp/scripts/psSearch.js'
+            :src: '/smp/scripts/psSearch.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/smp/scripts/common.js'
+            :src: '/smp/scripts/common.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/login.js'
+            :src: '/scripts/std/login.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/loginparts_editor.js'
+            :src: '/scripts/std/loginparts_editor.js?v=20161005_003'
+            :type: 'text/javascript'
+        - :name: 'script'
+          :attributes:
+            :src: '/smp/scripts/std/e1/login_menu.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:

@@ -46,49 +46,49 @@
               - alternate
         - :name: 'link'
           :attributes:
-            :href: '/css/std/master.css'
+            :href: '/css/std/master.css?v=20161005_003'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/std/lib_css/search.css'
+            :href: '/css/std/lib_css/search.css?v=20161005_003'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/ext/image_kurukuru.css'
+            :href: '/css/ext/image_kurukuru.css?v=20161005_003'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery-1.8.3.min.js'
+            :src: '/scripts/std/jquery-1.8.3.min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery.bxslider.min.js'
+            :src: '/scripts/std/jquery.bxslider.min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery.colorbox-min.js'
+            :src: '/scripts/std/jquery.colorbox-min.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/common_functions.js'
+            :src: '/scripts/std/common_functions.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common_functions_ext.js'
+            :src: '/scripts/ext/common_functions_ext.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common/cookie.js'
+            :src: '/scripts/ext/common/cookie.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/search/searchSubmit.js'
+            :src: '/scripts/ext/search/searchSubmit.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common/conditionSelect/controlCheckBoxWithGroupItem.js'
+            :src: '/scripts/ext/common/conditionSelect/controlCheckBoxWithGroupItem.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common/conditionSelect/setTotalFromAjax.js'
+            :src: '/scripts/ext/common/conditionSelect/setTotalFromAjax.js?v=20161005_003'
         - :name: 'script'
           :attributes:
             :class:
@@ -97,14 +97,18 @@
             :src: '/scripts/ext/search/CityModal.js'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/search/fixedFooterSearch.js'
+            :src: '/scripts/ext/search/fixedFooterSearch.js?v=20161005_003'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/login.js'
+            :src: '/scripts/std/login.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/loginparts_editor.js'
+            :src: '/scripts/std/loginparts_editor.js?v=20161005_003'
+            :type: 'text/javascript'
+        - :name: 'script'
+          :attributes:
+            :src: '/scripts/std/login_menu.js?v=20161005_003'
             :type: 'text/javascript'
         - :name: 'script'
         - :name: 'script'
