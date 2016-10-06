@@ -46,52 +46,52 @@
               - alternate
         - :name: 'link'
           :attributes:
-            :href: '/css/std/master.css?v=20161005_003'
+            :href: '/css/std/master.css?v=20161006_002'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/std/lib_css/search.css?v=20161005_003'
+            :href: '/css/std/lib_css/search.css?v=20161006_002'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/std/lib_css/top.css?v=20161005_003'
+            :href: '/css/std/lib_css/top.css?v=20161006_002'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/std/lib_css/tochi.css?v=20161005_003'
+            :href: '/css/std/lib_css/tochi.css?v=20161006_002'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery-1.8.3.min.js?v=20161005_003'
+            :src: '/scripts/std/jquery-1.8.3.min.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery.bxslider.min.js?v=20161005_003'
+            :src: '/scripts/std/jquery.bxslider.min.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery.colorbox-min.js?v=20161005_003'
+            :src: '/scripts/std/jquery.colorbox-min.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/common_functions.js?v=20161005_003'
+            :src: '/scripts/std/common_functions.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common_functions_ext.js?v=20161005_003'
+            :src: '/scripts/ext/common_functions_ext.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common/cookie.js?v=20161005_003'
+            :src: '/scripts/ext/common/cookie.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/search/searchSubmit.js?v=20161005_003'
+            :src: '/scripts/ext/search/searchSubmit.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common/conditionSelect/setTotalFromAjax.js?v=20161005_003'
+            :src: '/scripts/ext/common/conditionSelect/setTotalFromAjax.js?v=20161006_002'
         - :name: 'script'
           :attributes:
             :data-areacd: '12'
@@ -101,19 +101,19 @@
             :data-syumokucd: '1100'
             :data-unitname: '/7253/athome/kodate_tochi/'
             :id: 'dfp_form'
-            :src: '/scripts/ext/common/dfp_functions.js?v=20161005_003'
+            :src: '/scripts/ext/common/dfp_functions.js?v=20161006_002'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/login.js?v=20161005_003'
+            :src: '/scripts/std/login.js?v=20161006_002'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/loginparts_editor.js?v=20161005_003'
+            :src: '/scripts/std/loginparts_editor.js?v=20161006_002'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/login_menu.js?v=20161005_003'
+            :src: '/scripts/std/login_menu.js?v=20161006_002'
             :type: 'text/javascript'
         - :name: 'script'
         - :name: 'script'
@@ -2717,39 +2717,6 @@
                                             :class:
                                               - desc2
                                               - desc
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - item
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :href: 'http://www.athome.co.jp/tochi/6961396605/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
-                                        :target: '_blank'
-                                      :children:
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - title
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - thumb
-                                          :children:
-                                            - :name: 'img'
-                                              :attributes:
-                                                :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/6961396605/2.jpeg?width=160&height=160&margin=true'
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - desc1
-                                              - desc
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - desc2
-                                              - desc
                             - :name: 'p'
                               :attributes:
                                 :class:
@@ -3392,12 +3359,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/adachi-city/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/meguro-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/meguro-city/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/adachi-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -3412,12 +3379,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/katsushika-city/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/bunkyo-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/chofu-city/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/katsushika-city/list/'
                         - :name: 'div'
                           :attributes:
                             :class:
@@ -3476,7 +3443,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/toeioedo-line/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/keihintohoku-line/list/'
                         - :name: 'div'
                           :attributes:
                             :class:
@@ -3520,6 +3487,26 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/seijogakuemmae-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/shimokitazawa-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/komagome-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/nishiogikubo-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/tochi/tokyo/oizumigakuen-st/list/'
                                         - :name: 'li'
                                           :children:
@@ -3530,32 +3517,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/shimokitazawa-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/seijogakuemmae-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/nishiogikubo-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/tochi/tokyo/chitosefunabashi-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/komagome-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/shibasaki-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -3566,6 +3528,11 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://www.athome.co.jp/tochi/tokyo/keiseikoiwa-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/shibasaki-st/list/'
                     - :name: 'div'
                       :attributes:
                         :class:
@@ -3670,7 +3637,7 @@
                             :width: '220'
                 - :name: 'script'
                   :attributes:
-                    :src: '/top/scripts/std/youtube.js?v=20161005_003'
+                    :src: '/top/scripts/std/youtube.js?v=20161006_002'
                 - :name: 'div'
                   :attributes:
                     :class:

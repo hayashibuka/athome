@@ -70,7 +70,7 @@
             :type: 'image/x-icon'
         - :name: 'link'
           :attributes:
-            :href: '/smt_design_mansion/css/screen.css?v=4'
+            :href: '/smt_design_mansion/css/screen.css?v=5'
             :rel:
               - stylesheet
         - :name: 'script'
@@ -608,7 +608,7 @@
                           :children:
                             - :name: 'a'
                               :attributes:
-                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1910/'
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1908/'
                               :children:
                                 - :name: 'span'
                                   :attributes:
@@ -637,7 +637,7 @@
                           :children:
                             - :name: 'a'
                               :attributes:
-                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1894/'
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1907/'
                               :children:
                                 - :name: 'span'
                                   :attributes:
@@ -666,7 +666,7 @@
                           :children:
                             - :name: 'a'
                               :attributes:
-                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1901/'
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/1902/'
                               :children:
                                 - :name: 'span'
                                   :attributes:
@@ -772,7 +772,7 @@
                           :children:
                             - :name: 'a'
                               :attributes:
-                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2031/'
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2035/'
                               :children:
                                 - :name: 'span'
                                   :attributes:
@@ -801,7 +801,7 @@
                           :children:
                             - :name: 'a'
                               :attributes:
-                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2030/'
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2029/'
                               :children:
                                 - :name: 'span'
                                   :attributes:
@@ -878,7 +878,36 @@
                           :children:
                             - :name: 'a'
                               :attributes:
-                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2187/'
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2191/'
+                              :children:
+                                - :name: 'span'
+                                  :attributes:
+                                    :class:
+                                      - ui-icon
+                                      - ui-icon-r
+                                      - ui-icon-arrow-blue-r
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - text_wrapper
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - text
+                    - :name: 'li'
+                      :attributes:
+                        :class:
+                          - full
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - simple_list_box_wrapper
+                          :children:
+                            - :name: 'a'
+                              :attributes:
+                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2192/'
                               :children:
                                 - :name: 'span'
                                   :attributes:
@@ -908,35 +937,6 @@
                             - :name: 'a'
                               :attributes:
                                 :href: 'http://www.athome.co.jp/smt/mansion/feature/2189/'
-                              :children:
-                                - :name: 'span'
-                                  :attributes:
-                                    :class:
-                                      - ui-icon
-                                      - ui-icon-r
-                                      - ui-icon-arrow-blue-r
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - text_wrapper
-                                  :children:
-                                    - :name: 'span'
-                                      :attributes:
-                                        :class:
-                                          - text
-                    - :name: 'li'
-                      :attributes:
-                        :class:
-                          - full
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - simple_list_box_wrapper
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/smt/mansion/feature/2188/'
                               :children:
                                 - :name: 'span'
                                   :attributes:

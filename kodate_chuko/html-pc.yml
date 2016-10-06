@@ -46,73 +46,73 @@
               - alternate
         - :name: 'link'
           :attributes:
-            :href: '/css/std/master.css?v=20161005_003'
+            :href: '/css/std/master.css?v=20161006_002'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/std/lib_css/top.css?v=20161005_003'
+            :href: '/css/std/lib_css/top.css?v=20161006_002'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/ext/keyword.css?v=20161005_003'
+            :href: '/css/ext/keyword.css?v=20161006_002'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: '/css/std/lib_css/kodate.css?v=20161005_003'
+            :href: '/css/std/lib_css/kodate.css?v=20161006_002'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery-1.8.3.min.js?v=20161005_003'
+            :src: '/scripts/std/jquery-1.8.3.min.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery.bxslider.min.js?v=20161005_003'
+            :src: '/scripts/std/jquery.bxslider.min.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery.colorbox-min.js?v=20161005_003'
+            :src: '/scripts/std/jquery.colorbox-min.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/common_functions.js?v=20161005_003'
+            :src: '/scripts/std/common_functions.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common_functions_ext.js?v=20161005_003'
+            :src: '/scripts/ext/common_functions_ext.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common/cookie.js?v=20161005_003'
+            :src: '/scripts/ext/common/cookie.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/jquery.bxslider.min.js?v=20161005_003'
+            :src: '/scripts/std/jquery.bxslider.min.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/common/ruledeferredfactory.js?v=20161005_003'
+            :src: '/scripts/ext/common/ruledeferredfactory.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/selectAreaSearch.js?v=20161005_003'
+            :src: '/scripts/std/selectAreaSearch.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/search/searchSubmit.js?v=20161005_003'
+            :src: '/scripts/ext/search/searchSubmit.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/ext/search/keyword.js?v=20161005_003'
+            :src: '/scripts/ext/search/keyword.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/personal_functions.js?v=20161005_003'
+            :src: '/scripts/personal_functions.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/personal_cond.js?v=20161005_003'
+            :src: '/scripts/personal_cond.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/html5shiv.min.js?v=20161005_003'
+            :src: '/scripts/std/html5shiv.min.js?v=20161006_002'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/respond.min.js?v=20161005_003'
+            :src: '/scripts/std/respond.min.js?v=20161006_002'
         - :name: 'script'
           :attributes:
             :data-areacd: ''
@@ -122,19 +122,19 @@
             :data-syumokucd: '1202'
             :data-unitname: '/7253/athome/kodate_tochi/'
             :id: 'dfp_form'
-            :src: '/scripts/ext/common/dfp_functions.js?v=20161005_003'
+            :src: '/scripts/ext/common/dfp_functions.js?v=20161006_002'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/login.js?v=20161005_003'
+            :src: '/scripts/std/login.js?v=20161006_002'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/loginparts_editor.js?v=20161005_003'
+            :src: '/scripts/std/loginparts_editor.js?v=20161006_002'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/scripts/std/login_menu.js?v=20161005_003'
+            :src: '/scripts/std/login_menu.js?v=20161006_002'
             :type: 'text/javascript'
         - :name: 'script'
         - :name: 'script'
@@ -3101,7 +3101,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/kodate/1077684818/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
+                                        :href: 'http://www.athome.co.jp/kodate/6961411060/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
                                         :target: '_blank'
                                       :children:
                                         - :name: 'p'
@@ -3116,7 +3116,7 @@
                                             - :name: 'img'
                                               :attributes:
                                                 :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/1077684818/2.jpeg?width=160&height=160&margin=true'
+                                                :src: 'http://img3.athome.jp/image_files/index/bukken/6961411060/2.jpeg?width=160&height=160&margin=true'
                                         - :name: 'p'
                                           :attributes:
                                             :class:
@@ -3134,7 +3134,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/kodate/8708539002/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
+                                        :href: 'http://www.athome.co.jp/kodate/6961427317/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
                                         :target: '_blank'
                                       :children:
                                         - :name: 'p'
@@ -3149,7 +3149,7 @@
                                             - :name: 'img'
                                               :attributes:
                                                 :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/8708539002/2.jpeg?width=160&height=160&margin=true'
+                                                :src: 'http://img3.athome.jp/image_files/index/bukken/6961427317/2.jpeg?width=160&height=160&margin=true'
                                         - :name: 'p'
                                           :attributes:
                                             :class:
@@ -3167,7 +3167,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/kodate/1046156309/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
+                                        :href: 'http://www.athome.co.jp/kodate/1046649121/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
                                         :target: '_blank'
                                       :children:
                                         - :name: 'p'
@@ -3182,7 +3182,7 @@
                                             - :name: 'img'
                                               :attributes:
                                                 :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/1046156309/2.jpeg?width=160&height=160&margin=true'
+                                                :src: 'http://img3.athome.jp/image_files/index/bukken/1046649121/2.jpeg?width=160&height=160&margin=true'
                                         - :name: 'p'
                                           :attributes:
                                             :class:
@@ -3200,7 +3200,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/kodate/6957592797/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
+                                        :href: 'http://www.athome.co.jp/kodate/6961207633/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
                                         :target: '_blank'
                                       :children:
                                         - :name: 'p'
@@ -3215,7 +3215,7 @@
                                             - :name: 'img'
                                               :attributes:
                                                 :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/6957592797/2.jpeg?width=160&height=160&margin=true'
+                                                :src: 'http://img3.athome.jp/image_files/index/bukken/6961207633/2.jpeg?width=160&height=160&margin=true'
                                         - :name: 'p'
                                           :attributes:
                                             :class:
@@ -3233,7 +3233,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/kodate/6960859960/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
+                                        :href: 'http://www.athome.co.jp/kodate/6960348356/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
                                         :target: '_blank'
                                       :children:
                                         - :name: 'p'
@@ -3248,7 +3248,7 @@
                                             - :name: 'img'
                                               :attributes:
                                                 :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/6960859960/2.jpeg?width=160&height=160&margin=true'
+                                                :src: 'http://img3.athome.jp/image_files/index/bukken/6960348356/2.jpeg?width=160&height=160&margin=true'
                                         - :name: 'p'
                                           :attributes:
                                             :class:
@@ -3925,12 +3925,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/mie/tsu-city/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/chiba/funabashi-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/chiba/funabashi-city/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/mie/tsu-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -3945,12 +3945,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/chiba/ichikawa-city/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/edogawa-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/edogawa-city/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/chiba/ichikawa-city/list/'
                         - :name: 'div'
                           :attributes:
                             :class:
@@ -3989,12 +3989,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/chiba/shinkeisei-line/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/kanagawa/keikyu-line/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/kanagawa/keikyu-line/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/chiba/shinkeisei-line/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -4083,12 +4083,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/denenchofu-st/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/kanagawa/tsujido-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/kanagawa/tsujido-st/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/denenchofu-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -4098,7 +4098,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/narimasu-st/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/chuko/tokyo/soshigayaokura-st/list/'
                     - :name: 'div'
                       :attributes:
                         :class:
@@ -4208,7 +4208,7 @@
                             :width: '220'
                 - :name: 'script'
                   :attributes:
-                    :src: '/top/scripts/std/youtube.js?v=20161005_003'
+                    :src: '/top/scripts/std/youtube.js?v=20161006_002'
                 - :name: 'div'
                   :attributes:
                     :class:
