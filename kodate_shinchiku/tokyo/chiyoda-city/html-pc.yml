@@ -4266,12 +4266,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/seibushinjuku-line/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/seibuikebukuro-line/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/seibuikebukuro-line/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/seibushinjuku-line/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -4315,7 +4315,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/keiseikoiwa-st/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/higashinagasaki-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -4325,17 +4325,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/higashinagasaki-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/nogata-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/senkawa-st/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/keiseikoiwa-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -4345,17 +4335,22 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
+                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/nogata-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/sakurajosui-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/keiseitakasago-st/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/senkawa-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/tamagawagakuemmae-st/list/'
+                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/keiseitakasago-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -4366,6 +4361,11 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/keiseihikifune-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/kodate/shinchiku/tokyo/hino-st/list/'
                     - :name: 'div'
                       :attributes:
                         :class:

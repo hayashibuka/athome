@@ -4990,12 +4990,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/toshima-city/list/'
+                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/adachi-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/adachi-city/list/'
+                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/suginami-city/list/'
                         - :name: 'div'
                           :attributes:
                             :class:
@@ -5029,12 +5029,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/yamanote-line/list/'
+                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/toeioedo-line/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/toeioedo-line/list/'
+                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/yamanote-line/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -5113,6 +5113,11 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
+                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/ryogoku-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/omori-st/list/'
                                         - :name: 'li'
                                           :children:
@@ -5123,22 +5128,17 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/ryogoku-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/ueno-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/shinagawa-st/list/'
+                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/shibuya-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/shibuya-st/list/'
+                                                :href: 'http://www.athome.co.jp/mansion/chuko/tokyo/shinagawa-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'

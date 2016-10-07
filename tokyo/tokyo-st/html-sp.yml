@@ -1793,12 +1793,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/nakano-st/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/ikebukuro-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/ikebukuro-st/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/nakano-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -1828,11 +1828,6 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/higashinakano-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/chintai/tokyo/araiyakushimae-st/list/'
                                         - :name: 'li'
                                           :children:
@@ -1849,6 +1844,11 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://www.athome.co.jp/chintai/tokyo/kasai-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/higashinakano-st/list/'
                     - :name: 'p'
                       :attributes:
                         :id: 'seo-text'

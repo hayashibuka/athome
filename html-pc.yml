@@ -1921,6 +1921,21 @@
                             - :name: 'br'
                             - :name: 'a'
                               :attributes:
+                                :href: 'http://athomef5wc.jp/?bn=info'
+                                :target: '_blank'
+                        - :name: 'li'
+                          :children:
+                            - :name: 'span'
+                              :children:
+                                - :name: 'img'
+                                  :attributes:
+                                    :alt: 'NEW'
+                                    :height: '15'
+                                    :src: '/top/images/std/portal/ico_info_new.gif'
+                                    :width: '40'
+                            - :name: 'br'
+                            - :name: 'a'
+                              :attributes:
                                 :href: '/sports/?sports=pc_at_info'
                         - :name: 'li'
                           :children:
@@ -1952,18 +1967,42 @@
                                 :href: '/special/brand/?16sapr=pc_at_info_cm'
                 - :name: 'div'
                   :attributes:
-                    :style: 'border:1px solid #eaeaea;margin-bottom:10px;'
+                    :class:
+                      - sideBox
+                    :id: 'side-banner_02'
                   :children:
-                    - :name: 'a'
-                      :attributes:
-                        :href: '/sports/?sports=pc_at_top'
+                    - :name: 'div'
                       :children:
-                        - :name: 'img'
+                        - :name: 'ul'
                           :attributes:
-                            :alt: '国枝慎吾選手が出演するTVCM公開中！'
-                            :height: '134'
-                            :src: '/top/images/std/portal/atsports.jpg'
-                            :width: '218'
+                            :class:
+                              - sideSlider
+                          :children:
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: '/sports/?sports=pc_at_top'
+                                  :children:
+                                    - :name: 'img'
+                                      :attributes:
+                                        :alt: '国枝慎吾選手が出演するTVCM公開中！'
+                                        :height: '134'
+                                        :src: '/information/side_banner/images/atsports.jpg'
+                                        :width: '218'
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://athomef5wc.jp/?bn=at_top'
+                                    :target: '_blank'
+                                  :children:
+                                    - :name: 'img'
+                                      :attributes:
+                                        :alt: 'アットホーム F5WC 特設サイト'
+                                        :height: '134'
+                                        :src: '/information/side_banner/images/F5WC.jpg'
+                                        :width: '218'
                 - :name: 'div'
                   :attributes:
                     :class:
