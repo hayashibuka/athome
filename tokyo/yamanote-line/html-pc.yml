@@ -1882,12 +1882,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/toshima-city/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/itabashi-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/itabashi-city/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/toshima-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -2000,12 +2000,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/ikebukuro-st/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/nakano-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/nakano-st/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/ikebukuro-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -2035,17 +2035,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/araiyakushimae-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/sangendyaya-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/chintai/tokyo/kanamecho-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/higashinakano-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -2055,7 +2050,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/higashinakano-st/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/araiyakushimae-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/sangendyaya-st/list/'
                     - :name: 'p'
                       :attributes:
                         :id: 'seo-text'
@@ -2254,18 +2254,42 @@
                   :children:
                     - :name: 'div'
                       :attributes:
-                        :style: 'border:1px solid #eaeaea;margin-bottom:10px;'
+                        :class:
+                          - sideBox
+                        :id: 'side-banner_02'
                       :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: '/sports/?sports=pc_at_item'
+                        - :name: 'div'
                           :children:
-                            - :name: 'img'
+                            - :name: 'ul'
                               :attributes:
-                                :alt: '国枝慎吾選手が出演するTVCM公開中！'
-                                :height: '134'
-                                :src: '/backend/contents/relation_site/atsports.jpg'
-                                :width: '218'
+                                :class:
+                                  - sideSlider
+                              :children:
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/sports/?sports=pc_at_item'
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: '国枝慎吾選手が出演するTVCM公開中！'
+                                            :height: '134'
+                                            :src: '/information/side_banner/images/atsports.jpg'
+                                            :width: '218'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://athomef5wc.jp/?bn=at_item'
+                                        :target: '_blank'
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: 'アットホーム F5WC 特設サイト'
+                                            :height: '134'
+                                            :src: '/information/side_banner/images/F5WC.jpg'
+                                            :width: '218'
                     - :name: 'div'
                       :attributes:
                         :class:

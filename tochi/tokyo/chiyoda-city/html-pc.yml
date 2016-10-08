@@ -1782,7 +1782,7 @@
                                   :attributes:
                                     :id: 'dev-totalCount'
                                     :type: 'hidden'
-                                    :value: '24'
+                                    :value: '23'
                                 - :name: 'script'
                     - :name: 'section'
                       :attributes:
@@ -2559,39 +2559,6 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/tochi/1034654622/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
-                                        :target: '_blank'
-                                      :children:
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - title
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - thumb
-                                          :children:
-                                            - :name: 'img'
-                                              :attributes:
-                                                :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/1034654622/2.jpeg?width=160&height=160&margin=true'
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - desc1
-                                              - desc
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - desc2
-                                              - desc
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - item
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
                                         :href: 'http://www.athome.co.jp/tochi/8718915702/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
                                         :target: '_blank'
                                       :children:
@@ -2641,39 +2608,6 @@
                                               :attributes:
                                                 :alt: ''
                                                 :src: 'http://img3.athome.jp/image_files/path/no_image?width=160&height=160&margin=true'
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - desc1
-                                              - desc
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - desc2
-                                              - desc
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - item
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :href: 'http://www.athome.co.jp/tochi/6961416660/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=nw_reco'
-                                        :target: '_blank'
-                                      :children:
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - title
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - thumb
-                                          :children:
-                                            - :name: 'img'
-                                              :attributes:
-                                                :alt: ''
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/6961416660/1.jpeg?width=160&height=160&margin=true'
                                         - :name: 'p'
                                           :attributes:
                                             :class:
@@ -2742,7 +2676,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/tochi/8792599101/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=rn_reco'
+                                        :href: 'http://www.athome.co.jp/tochi/8718915702/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=rn_reco'
                                         :target: '_blank'
                                       :children:
                                         - :name: 'p'
@@ -2768,7 +2702,7 @@
                                               :attributes:
                                                 :alt: ''
                                                 :height: '125'
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/8792599101/2.jpeg?width=160&height=160&margin=true'
+                                                :src: 'http://img3.athome.jp/image_files/index/bukken/8718915702/2.jpeg?width=160&height=160&margin=true'
                                                 :width: '125'
                                         - :name: 'p'
                                           :attributes:
@@ -2787,7 +2721,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://www.athome.co.jp/tochi/8718915702/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=rn_reco'
+                                        :href: 'http://www.athome.co.jp/tochi/8792599101/?DOWN=1&RECOMMFLG=1&BKLISTID=031PPC&sref=rn_reco'
                                         :target: '_blank'
                                       :children:
                                         - :name: 'p'
@@ -2813,7 +2747,7 @@
                                               :attributes:
                                                 :alt: ''
                                                 :height: '125'
-                                                :src: 'http://img3.athome.jp/image_files/index/bukken/8718915702/2.jpeg?width=160&height=160&margin=true'
+                                                :src: 'http://img3.athome.jp/image_files/index/bukken/8792599101/2.jpeg?width=160&height=160&margin=true'
                                                 :width: '125'
                                         - :name: 'p'
                                           :attributes:
@@ -3306,12 +3240,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/nerima-city/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/ota-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/ota-city/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/nerima-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -3326,12 +3260,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/meguro-city/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/taito-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/taito-city/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/meguro-city/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -3464,22 +3398,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/shimokitazawa-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/tochi/tokyo/kameari-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/oizumigakuen-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/komagome-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -3489,7 +3408,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/tochi/tokyo/chitosefunabashi-st/list/'
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/shimokitazawa-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -3499,7 +3418,22 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/komagome-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/chitosefunabashi-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/tochi/tokyo/shirokanetakanawa-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/tochi/tokyo/oizumigakuen-st/list/'
                     - :name: 'div'
                       :attributes:
                         :class:
@@ -3643,18 +3577,42 @@
                   :children:
                     - :name: 'div'
                       :attributes:
-                        :style: 'border:1px solid #eaeaea;margin-bottom:10px;'
+                        :class:
+                          - sideBox
+                        :id: 'side-banner_02'
                       :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: '/sports/?sports=pc_at_item'
+                        - :name: 'div'
                           :children:
-                            - :name: 'img'
+                            - :name: 'ul'
                               :attributes:
-                                :alt: '国枝慎吾選手が出演するTVCM公開中！'
-                                :height: '134'
-                                :src: '/backend/contents/relation_site/atsports.jpg'
-                                :width: '218'
+                                :class:
+                                  - sideSlider
+                              :children:
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/sports/?sports=pc_at_item'
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: '国枝慎吾選手が出演するTVCM公開中！'
+                                            :height: '134'
+                                            :src: '/information/side_banner/images/atsports.jpg'
+                                            :width: '218'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: 'http://athomef5wc.jp/?bn=at_item'
+                                        :target: '_blank'
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: 'アットホーム F5WC 特設サイト'
+                                            :height: '134'
+                                            :src: '/information/side_banner/images/F5WC.jpg'
+                                            :width: '218'
                     - :name: 'div'
                       :attributes:
                         :class:
