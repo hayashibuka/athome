@@ -1818,17 +1818,12 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/nogata-st/list/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
                                                 :href: 'http://www.athome.co.jp/chintai/tokyo/ogikubo-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://www.athome.co.jp/chintai/tokyo/kanamecho-st/list/'
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/nogata-st/list/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'a'
@@ -1849,6 +1844,11 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://www.athome.co.jp/chintai/tokyo/sangendyaya-st/list/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://www.athome.co.jp/chintai/tokyo/kanamecho-st/list/'
                     - :name: 'p'
                       :attributes:
                         :id: 'seo-text'
