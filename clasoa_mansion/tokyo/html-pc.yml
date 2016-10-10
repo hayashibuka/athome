@@ -1,1395 +1,191 @@
-- :name: 'html'
-  :attributes:
-    :xmlns: 'http://www.w3.org/1999/xhtml'
+---
+:name: html
+:attributes:
+  :xmlns: http://www.w3.org/1999/xhtml
+:children:
+- :name: head
+  :count: 1
   :children:
-    - :name: 'head'
+  - :name: meta
+    :count: 3
+    :attributes:
+      :content: text/html; charset=utf-8
+      :http-equiv: Content-Type
+  - :name: meta
+    :count: 9
+    :attributes:
+      :content: "東京エリア,東京都,マンション,新築マンション,分譲マンション,新築分譲マンション"
+      :name: keywords
+  - :name: title
+    :count: 1
+  - :name: link
+    :count: 2
+    :attributes:
+      :rel: canonical
+  - :name: link
+    :count: 1
+    :attributes:
+      :media: 'only screen and (max-width: 640px)'
+      :rel: alternate
+  - :name: link
+    :count: 4
+    :attributes:
+      :media: all
+      :rel: stylesheet
+      :type: text/css
+  - :name: script
+    :count: 2
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 3
+    :attributes:
+      :type: text/javascript
+- :name: body
+  :count: 1
+  :children:
+  - :name: a
+    :count: 1
+    :attributes:
+      :id: top
+      :name: top
+  - :name: div
+    :count: 1
+    :attributes:
+      :id: wrapper
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :id: container
       :children:
-        - :name: 'meta'
+      - :name: div
+        :count: 3
+        :attributes:
+          :class: header-txt
+        :children:
+        - :name: a
+          :count: 1
           :attributes:
-            :content: 'text/html; charset=utf-8'
-            :http-equiv: 'Content-Type'
-        - :name: 'meta'
-          :attributes:
-            :content: '東京エリア,東京都,マンション,新築マンション,分譲マンション,新築分譲マンション'
-            :name: 'keywords'
-        - :name: 'meta'
-          :attributes:
-            :content: '東京のエリアの新築マンション・分譲マンションの購入・検討に役立つ情報をご紹介します。アットホーム新築マンションPLEASEは、エリアや沿線、物件の特徴などからご希望の物件を検索できる、あなたの住まい探しのパートナーです。'
-            :name: 'description'
-        - :name: 'title'
-        - :name: 'meta'
-          :attributes:
-            :content: 'text/javascript'
-            :http-equiv: 'content-script-type'
-        - :name: 'meta'
-          :attributes:
-            :content: 'text/css'
-            :http-equiv: 'content-style-type'
-        - :name: 'meta'
-          :attributes:
-            :content: 'アットホーム株式会社,(C)at home Co.,Ltd.'
-            :name: 'copyright'
-        - :name: 'meta'
-          :attributes:
-            :content: 'all'
-            :name: 'robots'
-        - :name: 'link'
-          :attributes:
-            :href: 'http://www.athome.co.jp/clasoa_mansion/tokyo/'
-            :rel:
-              - canonical
-        - :name: 'meta'
-          :attributes:
-            :content: 'noarchive'
-            :name: 'robots'
-        - :name: 'link'
-          :attributes:
-            :href: '/clasoa_mansion/favicon.ico'
-            :rel:
-              - shortcut
-              - icon
-        - :name: 'meta'
-          :attributes:
-            :content: '/clasoa_mansion'
-            :name: 'RT_SITE'
-        - :name: 'meta'
-          :attributes:
-            :content: 'cs'
-            :name: 'RT_ITEM'
-        - :name: 'meta'
-          :attributes:
-            :content: '95'
-            :name: 'RT_ART'
-        - :name: 'meta'
-          :attributes:
-            :content: 'list'
-            :name: 'RT_PAGE_TYPE'
-        - :name: 'link'
-          :attributes:
-            :href: 'http://www.athome.co.jp/smt/mansion/tokyo/'
-            :media: 'only screen and (max-width: 640px)'
-            :rel:
-              - alternate
-        - :name: 'link'
-          :attributes:
-            :href: '/clasoa_design_mansion/css/import.css'
-            :media: 'all'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: '/clasoa_design_mansion/css/search/company.css'
-            :media: 'all'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: '/clasoa_design_mansion/css/wrapper.css'
-            :media: 'all'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: '/clasoa_design_mansion/css/search/special_com/1504tokyo.css'
-            :media: 'all'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'script'
-          :attributes:
-            :src: '/clasoa_mansion/inc/cmnjs.js'
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :src: '/clasoa_mansion/inc/detail.js'
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :src: '/clasoa_design_mansion/js/jquery.min.js'
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :src: '/clasoa_design_mansion/js/main.js'
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :src: '/clasoa_design_mansion/js/smartRollover.js'
-            :type: 'text/javascript'
-    - :name: 'body'
-      :children:
-        - :name: 'a'
-          :attributes:
-            :id: 'top'
-            :name: 'top'
-        - :name: 'div'
-          :attributes:
-            :id: 'wrapper'
+            :target: _blank
+        - :name: a
+          :count: 1
+      - :name: script
+        :count: 1
+        :attributes:
+          :language: JavaScript
+      - :name: script
+        :count: 1
+        :attributes:
+          :type: text/javascript
+      - :name: div
+        :count: 2
+        :attributes:
+          :id: topicpath
+        :children:
+        - :name: ul
+          :count: 1
           :children:
-            - :name: 'div'
-              :attributes:
-                :id: 'container'
+          - :name: li
+            :count: 4
+            :children:
+            - :name: a
+              :count: 1
+          - :name: li
+            :count: 1
+            :attributes:
+              :class: active
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: base-footer
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :id: footer1_btm
+        :children:
+        - :name: ul
+          :count: 1
+          :attributes:
+            :class: util-clearfix
+          :children:
+          - :name: li
+            :count: 8
+            :children:
+            - :name: a
+              :count: 1
               :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - header-txt
-                  :children:
-                    - :name: 'a'
-                      :attributes:
-                        :href: '/'
-                        :target: '_blank'
-                    - :name: 'a'
-                      :attributes:
-                        :href: '/clasoa_mansion/'
-                - :name: 'script'
-                  :attributes:
-                    :language: 'JavaScript'
-                - :name: 'script'
-                  :attributes:
-                    :src: '/clasoa_mansion/inc/smp_pc.js'
-                    :type: 'text/javascript'
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - base-header
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - mod-headnav
-                      :children:
-                        - :name: 'h1'
-                          :attributes:
-                            :class:
-                              - mod-headnav-h
-                        - :name: 'p'
-                          :attributes:
-                            :class:
-                              - mod-renovation-text
-                        - :name: 'ul'
-                          :attributes:
-                            :class:
-                              - mod-headnav-items
-                          :children:
-                            - :name: 'li'
-                              :attributes:
-                                :class:
-                                  - mod-headnav-item
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://www.athome.co.jp/clasoa_mansion/sitemap/'
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - mod-header
-                      :children:
-                        - :name: 'p'
-                          :attributes:
-                            :class:
-                              - mod-header-logo
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/clasoa_mansion/'
-                              :children:
-                                - :name: 'img'
-                                  :attributes:
-                                    :alt: 'アットホーム 新築マンション'
-                                    :height: '66'
-                                    :src: '/clasoa_design_mansion/images/common/mod-header/logo.png'
-                                    :width: '156'
-                        - :name: 'ul'
-                          :attributes:
-                            :class:
-                              - mod-header-navs
-                          :children:
-                            - :name: 'li'
-                              :attributes:
-                                :class:
-                                  - mod-header-nav
-                                  - mylist
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: '/clasoa_mansion/search/record/mylist.php'
-                                  :children:
-                                    - :name: 'span'
-                                      :attributes:
-                                        :class:
-                                          - icon
-                                    - :name: 'span'
-                                      :attributes:
-                                        :class:
-                                          - result
-                                      :children:
-                                        - :name: 'span'
-                                          :attributes:
-                                            :class:
-                                              - num
-                                        - :name: 'span'
-                                          :attributes:
-                                            :class:
-                                              - sub
-                            - :name: 'li'
-                              :attributes:
-                                :class:
-                                  - mod-header-nav
-                                  - history
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: '/clasoa_mansion/search/record/browse.php'
-                                  :children:
-                                    - :name: 'span'
-                                      :attributes:
-                                        :class:
-                                          - icon
-                                    - :name: 'span'
-                                      :attributes:
-                                        :class:
-                                          - result
-                                      :children:
-                                        - :name: 'span'
-                                          :attributes:
-                                            :class:
-                                              - num
-                                        - :name: 'span'
-                                          :attributes:
-                                            :class:
-                                              - sub
-                            - :name: 'li'
-                              :attributes:
-                                :class:
-                                  - mod-header-nav
-                                  - newmail
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'https://www.athome.co.jp/clasoa_mansion/mail/'
-                                  :children:
-                                    - :name: 'span'
-                                      :attributes:
-                                        :class:
-                                          - icon
-                        - :name: 'p'
-                          :attributes:
-                            :class:
-                              - mod-header-banner
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: '/clasoa_mansion/talkie/lp/?rt=head_bn'
-                                :target: '_blank'
-                              :children:
-                                - :name: 'img'
-                                  :attributes:
-                                    :alt: ''
-                                    :height: '70'
-                                    :src: '/clasoa_design_mansion/images/common/mod-header/banner_talkie_159_70.jpg'
-                                    :width: '159'
-                - :name: 'div'
-                  :attributes:
-                    :id: 'topicpath'
-                  :children:
-                    - :name: 'ul'
-                      :children:
-                        - :name: 'li'
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/'
-                        - :name: 'li'
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/mansion/'
-                        - :name: 'li'
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/clasoa_mansion/'
-                        - :name: 'li'
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: '/clasoa_mansion/%E6%9D%B1%E4%BA%AC%E9%83%BD/'
-                        - :name: 'li'
-                          :attributes:
-                            :class:
-                              - active
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - div1
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - tokyo-main-visual
-                      :children:
-                        - :name: 'p'
-                          :attributes:
-                            :class:
-                              - tokyo-main-shibu
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: '/clasoa_mansion/tokyo/shibu/'
-                              :children:
-                                - :name: 'img'
-                                  :attributes:
-                                    :src: '/clasoa_design_mansion/images/search/special_com/1504tokyo/tokyo_top/shibu_off.png'
-                        - :name: 'p'
-                          :attributes:
-                            :class:
-                              - tokyo-main-23ku
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: '/clasoa_mansion/tokyo/tokyo23/'
-                              :children:
-                                - :name: 'img'
-                                  :attributes:
-                                    :src: '/clasoa_design_mansion/images/search/special_com/1504tokyo/tokyo_top/23ku_off.png'
-                        - :name: 'p'
-                          :attributes:
-                            :class:
-                              - tokyo-main-toshinbu
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: '/clasoa_mansion/tokyo/toshin/'
-                              :children:
-                                - :name: 'img'
-                                  :attributes:
-                                    :src: '/clasoa_design_mansion/images/search/special_com/1504tokyo/tokyo_top/toshin_off.png'
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - tokyo-list-part
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - tokyo-toshin-list
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-title-toshin
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: '/clasoa_mansion/tokyo/toshin/'
-                                  :children:
-                                    - :name: 'img'
-                                      :attributes:
-                                        :src: '/clasoa_design_mansion/images/search/special_com/1504tokyo/tokyo_top/title_toshin_off.jpg'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-white
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/roppongi_akasaka_azabu/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/aoyama_omotesando_harajuku/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/hiroo_sirogane/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-blue
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/meguro/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/shinagawa_tamachi_shibaura/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/shibuya_daikanyama_ebisu_nakameguro/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-white
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/shinbashi_shiodome_hamamatsucho/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/ginza_yurakucho_tsukiji/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/nihonbashi_ningyocho_suitengu/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-blue
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/tokyo_kanda_akihabara_ochanomizu_suidobashi/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/ichigaya_bancho_kojimachi/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/sendagaya_yoyogi/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-white
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/yoyogiuehara_sangubashi/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/shinjuku_nakanosakaue_okubo/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                          - kaigyo
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/takadanobaba_ochiai_araiyakushi_waseda/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-blue
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/mejiro_zoshigaya_gokokuji/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/toshin/yanesen_komagome/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - list-blank-blue
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - tokyo-23ku-list
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-title-23ku
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: '/clasoa_mansion/tokyo/tokyo23/'
-                                  :children:
-                                    - :name: 'img'
-                                      :attributes:
-                                        :src: '/clasoa_design_mansion/images/search/special_com/1504tokyo/tokyo_top/title_23ku_off.jpg'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-white
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/ikebukuro_senkawa_kanamecho/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/otsuka_sugamo_oji/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/nippori_tabata/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-blue
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/ueno_okachimachi_uguisudani/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/senju_horikiri/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/asakusa_oshiage_ryogoku_hikifune/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-white
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/kinshicho_kameido/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/kiba_minamisunamachi_kiyosumishirakawa/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - nothing
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-blue
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/tsukishima_kachidoki/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/toyosu_shinonome/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - nothing
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-white
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/oimachi_tennozu_samezu/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/gotanda_togoshi_osaki/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/omori_kamata/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-blue
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/jiyugaoka_denenchofu_gakugeidaigaku/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/sangenchaya_shimokitazawa/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/futakotamagawa_yoga/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-white
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/seijo_chitosefunabashi_kyodo_gotokuji_komae/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/sakurajosui_chitosekarasuyama_tsutsujigaoka/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                          - kaigyo
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/hamadayama_kugayama_eifukucho_meidaimae_setagaya/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-blue
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/nakano_koenji_asagaya/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/nerima_saginomiya_nakamurabashi/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/shakujiikoen_oizumigakuen/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-white
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/itabashi_kamiitabashi_jujo/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/narimasu_takashimadaira_hikarigaoka/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/akabane_ukimafunado/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-blue
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/nishiarai_toneri/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/ayase_kameari_kanamachi/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/shibamata_ohanajaya_takasago/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-white
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/koiwa_shinkoiwa/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/tokyo23/kasai_nishikasai_funabori/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - list-blank
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - tokyo-shibu-list
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-title-shibu
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: '/clasoa_mansion/tokyo/shibu/'
-                                  :children:
-                                    - :name: 'img'
-                                      :attributes:
-                                        :src: '/clasoa_design_mansion/images/search/special_com/1504tokyo/tokyo_top/title_shibu_off.jpg'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-white
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/shibu/kichijoji_mitaka/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/shibu/chofu_fuchu/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/shibu/koganei_kokubunji/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-blue
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/shibu/tachikawa_hino/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/shibu/kodaira_hanakoganei_higashifushimi_higashimurayama/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/shibu/hibarigaoka_kiyose_higashikurume_akitsu/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-white
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/shibu/tama_inagi/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/shibu/machida/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/shibu/hachioji/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - tokyo-list-blue
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - nothing
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/clasoa_mansion/tokyo/shibu/akishima_haijima_fussa_hamura_ome/'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - list-blank-blue
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - footer-bana
-                                  - clearfix
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - footer-bana-btn-wangan
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :href: '/clasoa_mansion/wangan/'
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :src: '/clasoa_design_mansion/images/search/special_com/1504tokyo/foot_bana_off.png'
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - footer-bana-btn-akasaka
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :href: '/clasoa_mansion/3a1r/'
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :src: '/clasoa_design_mansion/images/search/special_com/1504tokyo/foot_bana2_off.png'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - footer-else
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - top-footer-city
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :href: '/clasoa_mansion/%E6%9D%B1%E4%BA%AC%E9%83%BD/'
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :src: '/clasoa_design_mansion/images/search/special_com/1504tokyo/city_off.jpg'
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - top-footer-line
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :href: '/clasoa_mansion/%E6%9D%B1%E4%BA%AC%E9%83%BD/railroad/'
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :src: '/clasoa_design_mansion/images/search/special_com/1504tokyo/line_off.jpg'
-                - :name: 'div'
-                  :attributes:
-                    :id: 'pagetop'
-                  :children:
-                    - :name: 'p'
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: '#top'
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - base-footer
+              - :name: span
+                :count: 1
+                :attributes:
+                  :class: title
+      - :name: div
+        :count: 2
+        :attributes:
+          :class: base-footer-2
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: base-footer-inner util-clearfix
+          :children:
+          - :name: ul
+            :count: 2
+            :attributes:
+              :class: util-clearfix
+            :children:
+            - :name: li
+              :count: 6
               :children:
-                - :name: 'div'
-                  :attributes:
-                    :id: 'footer1_btm'
-                  :children:
-                    - :name: 'ul'
-                      :attributes:
-                        :class:
-                          - util-clearfix
-                      :children:
-                        - :name: 'li'
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/clasoa_mansion/'
-                              :children:
-                                - :name: 'span'
-                                  :attributes:
-                                    :class:
-                                      - title
-                        - :name: 'li'
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/clasoa_mansion/hokkaido-tohoku/'
-                              :children:
-                                - :name: 'span'
-                                  :attributes:
-                                    :class:
-                                      - title
-                        - :name: 'li'
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/clasoa_mansion/shutoken/'
-                              :children:
-                                - :name: 'span'
-                                  :attributes:
-                                    :class:
-                                      - title
-                        - :name: 'li'
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/clasoa_mansion/shinetsu-hokuriku/'
-                              :children:
-                                - :name: 'span'
-                                  :attributes:
-                                    :class:
-                                      - title
-                        - :name: 'li'
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/clasoa_mansion/tokai/'
-                              :children:
-                                - :name: 'span'
-                                  :attributes:
-                                    :class:
-                                      - title
-                        - :name: 'li'
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/clasoa_mansion/kinki/'
-                              :children:
-                                - :name: 'span'
-                                  :attributes:
-                                    :class:
-                                      - title
-                        - :name: 'li'
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/clasoa_mansion/chugoku-shikoku/'
-                              :children:
-                                - :name: 'span'
-                                  :attributes:
-                                    :class:
-                                      - title
-                        - :name: 'li'
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/clasoa_mansion/kyushu-okinawa/'
-                              :children:
-                                - :name: 'span'
-                                  :attributes:
-                                    :class:
-                                      - title
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - base-footer-2
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - base-footer-inner
-                          - util-clearfix
-                      :children:
-                        - :name: 'ul'
-                          :attributes:
-                            :class:
-                              - util-clearfix
-                          :children:
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://www.athome.co.jp/help/pdh/'
-                                    :target: '_blank'
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://www.athome.co.jp/help/kiyaku.html'
-                                    :target: '_blank'
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://www.athome.co.jp/clasoa_mansion/reference/'
-                                    :target: '_blank'
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://www.athome.co.jp/help/linkpolicy/'
-                                    :target: '_blank'
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://www.athome.co.jp/atweb_static/athome/customer.html'
-                                    :target: '_blank'
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://www.athome.co.jp/clasoa_mansion/sitemap/'
-                        - :name: 'ul'
-                          :attributes:
-                            :class:
-                              - util-clearfix
-                          :children:
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://athome-inc.jp/'
-                                    :target: '_blank'
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://athome-inc.jp/recruit/'
-                                    :target: '_blank'
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - base-footer-3
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - base-footer-inner
-                      :children:
-                        - :name: 'p'
-                        - :name: 'address'
-            - :name: 'script'
-              :attributes:
-                :charset: 'UTF-8'
-                :language: 'JavaScript'
-                :src: '//o.advg.jp/ojs?aid=5202&pid=5'
-                :type: 'text/javascript'
-            - :name: 'noscript'
-              :children:
-                - :name: 'iframe'
-                  :attributes:
-                    :height: '1'
-                    :src: '//o.advg.jp/oif?aid=5202&pid=5'
-                    :width: '1'
-            - :name: 'script'
-              :attributes:
-                :type: 'text/javascript'
-            - :name: 'noscript'
-              :children:
-                - :name: 'iframe'
-                  :attributes:
-                    :height: '0'
-                    :src: '//www.googletagmanager.com/ns.html?id=GTM-5G7Z38'
-                    :style: 'display:none;visibility:hidden'
-                    :width: '0'
-            - :name: 'script'
-            - :name: 'noscript'
-              :children:
-                - :name: 'iframe'
-                  :attributes:
-                    :height: '0'
-                    :src: '//www.googletagmanager.com/ns.html?id=GTM-MC8VLH'
-                    :style: 'display:none;visibility:hidden'
-                    :width: '0'
-            - :name: 'script'
-            - :name: 'script'
-              :attributes:
-                :type: 'text/javascript'
-            - :name: 'noscript'
-              :children:
-                - :name: 'iframe'
-                  :attributes:
-                    :frameborder: '0'
-                    :height: '1'
-                    :marginheight: '0'
-                    :marginwidth: '0'
-                    :scrolling: 'no'
-                    :src: '//b.yjtag.jp/iframe?c=CVJDnOm,ywhzziO,KhD5T8R,OjLZRoD'
-                    :width: '1'
-            - :name: 'span'
-              :attributes:
-                :id: 'id1'
-                :style: 'visibility:hidden'
-              :children:
-                - :name: 'form'
-                  :attributes:
-                    :action: 'https://www.athome.co.jp/clasoa_mansion/search/request/index.php'
-                    :enctype: 'multipart/form-data'
-                    :method: 'post'
-                    :name: 'form_request'
-                  :children:
-                    - :name: 'input'
-                      :attributes:
-                        :checked: ''
-                        :name: 'project_no_p[]'
-                        :type: 'checkbox'
-                        :value: ''
-                    - :name: 'input'
-                      :attributes:
-                        :name: 'request_url'
-                        :type: 'hidden'
-                        :value: 'https://www.athome.co.jp/clasoa_mansion/search/request/index.php'
-                    - :name: 'input'
-                      :attributes:
-                        :name: 'examination_url'
-                        :type: 'hidden'
-                        :value: 'http://www.athome.co.jp/search/record/house.php/record_ptn=2/set_flg=0'
-            - :name: 'span'
-              :attributes:
-                :id: 'id2'
-                :style: 'visibility:hidden'
-              :children:
-                - :name: 'form'
-                  :attributes:
-                    :action: 'https://www.athome.co.jp/clasoa_mansion/search/mr/index.php'
-                    :enctype: 'multipart/form-data'
-                    :method: 'post'
-                    :name: 'form_modelroom'
-                  :children:
-                    - :name: 'input'
-                      :attributes:
-                        :checked: ''
-                        :name: 'project_no_p[]'
-                        :type: 'checkbox'
-                        :value: ''
-                    - :name: 'input'
-                      :attributes:
-                        :name: 'modelroom_url'
-                        :type: 'hidden'
-                        :value: 'https://www.athome.co.jp/clasoa_mansion/search/mr/index.php'
+              - :name: a
+                :count: 1
+                :attributes:
+                  :target: _blank
+    - :name: script
+      :count: 1
+      :attributes:
+        :charset: UTF-8
+        :language: JavaScript
+        :type: text/javascript
+    - :name: noscript
+      :count: 4
+      :children:
+      - :name: iframe
+        :count: 1
+        :attributes:
+          :height: '1'
+          :width: '1'
+    - :name: script
+      :count: 2
+      :attributes:
+        :type: text/javascript
+    - :name: script
+      :count: 2
+    - :name: span
+      :count: 2
+      :attributes:
+        :id: id1
+        :style: visibility:hidden
+      :children:
+      - :name: form
+        :count: 1
+        :attributes:
+          :action: https://www.athome.co.jp/clasoa_mansion/search/request/index.php
+          :enctype: multipart/form-data
+          :method: post
+          :name: form_request
+        :children:
+        - :name: input
+          :count: 1
+          :attributes:
+            :checked: checked
+            :name: project_no_p[]
+            :type: checkbox
+            :value: ''
+        - :name: input
+          :count: 2
+          :attributes:
+            :name: request_url
+            :type: hidden
+            :value: https://www.athome.co.jp/clasoa_mansion/search/request/index.php

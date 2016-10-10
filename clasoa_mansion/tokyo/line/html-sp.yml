@@ -1,336 +1,88 @@
-- :name: 'html'
-  :attributes:
-    :xmlns: 'http://www.w3.org/1999/xhtml'
+---
+:name: html
+:attributes:
+  :xmlns: http://www.w3.org/1999/xhtml
+:children:
+- :name: head
+  :count: 1
   :children:
-    - :name: 'head'
+  - :name: meta
+    :count: 3
+    :attributes:
+      :content: text/html; charset=utf-8
+      :http-equiv: Content-Type
+  - :name: meta
+    :count: 6
+    :attributes:
+      :content: ''
+      :name: keywords
+  - :name: title
+    :count: 1
+  - :name: link
+    :count: 2
+    :attributes:
+      :rel: canonical
+  - :name: link
+    :count: 4
+    :attributes:
+      :media: all
+      :rel: stylesheet
+      :type: text/css
+  - :name: script
+    :count: 1
+    :attributes:
+      :type: text/javascript
+- :name: body
+  :count: 1
+  :children:
+  - :name: div
+    :count: 1
+    :attributes:
+      :id: wrapper-simp
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :id: container-simp
       :children:
-        - :name: 'meta'
+      - :name: div
+        :count: 3
+        :attributes:
+          :class: base-header
+        :children:
+        - :name: div
+          :count: 2
           :attributes:
-            :content: 'text/html; charset=utf-8'
-            :http-equiv: 'Content-Type'
-        - :name: 'meta'
-          :attributes:
-            :content: ''
-            :name: 'keywords'
-        - :name: 'meta'
-          :attributes:
-            :content: ''
-            :name: 'description'
-        - :name: 'title'
-        - :name: 'meta'
-          :attributes:
-            :content: 'text/javascript'
-            :http-equiv: 'content-script-type'
-        - :name: 'meta'
-          :attributes:
-            :content: 'text/css'
-            :http-equiv: 'content-style-type'
-        - :name: 'meta'
-          :attributes:
-            :content: 'アットホーム株式会社,(C)at home Co.,Ltd.'
-            :name: 'copyright'
-        - :name: 'meta'
-          :attributes:
-            :content: 'all'
-            :name: 'robots'
-        - :name: 'link'
-          :attributes:
-            :href: 'http://www.athome.co.jp/clasoa_mansion/error/softerr.php'
-            :rel:
-              - canonical
-        - :name: 'meta'
-          :attributes:
-            :content: 'noarchive'
-            :name: 'robots'
-        - :name: 'link'
-          :attributes:
-            :href: '/clasoa_mansion/favicon.ico'
-            :rel:
-              - shortcut
-              - icon
-        - :name: 'meta'
-          :attributes:
-            :content: 'noindex, nofollow'
-            :name: 'robots'
-        - :name: 'link'
-          :attributes:
-            :href: '/clasoa_design_mansion/css/import.css'
-            :media: 'all'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: '/clasoa_design_mansion/css/static/import.css'
-            :media: 'all'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: '/clasoa_design_mansion/css/wrapper.css'
-            :media: 'all'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: '/clasoa_design_mansion/css/error.css'
-            :media: 'all'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'script'
-          :attributes:
-            :src: '/clasoa_design_mansion/js/smartRollover.js'
-            :type: 'text/javascript'
-    - :name: 'body'
-      :children:
-        - :name: 'div'
-          :attributes:
-            :id: 'wrapper-simp'
+            :class: mod-headnav
           :children:
-            - :name: 'div'
-              :attributes:
-                :id: 'container-simp'
-              :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - base-header
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - mod-headnav
-                      :children:
-                        - :name: 'h1'
-                          :attributes:
-                            :class:
-                              - mod-headnav-h
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - mod-header
-                      :children:
-                        - :name: 'p'
-                          :attributes:
-                            :class:
-                              - mod-header-logo
-                          :children:
-                            - :name: 'img'
-                              :attributes:
-                                :alt: 'アットホーム 新築マンション'
-                                :height: '66'
-                                :src: '/clasoa_design_mansion/images/common/mod-header/logo.png'
-                                :width: '156'
-                        - :name: 'p'
-                          :attributes:
-                            :class:
-                              - mod-header-banner
-                - :name: 'div'
-                  :attributes:
-                    :style: 'clear:both;height:70px;'
-                - :name: 'h2'
-                  :attributes:
-                    :style: 'text-align:center'
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - staticwrap
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - explain_priv
-                        :style: 'text-align:center'
-                      :children:
-                        - :name: 'br'
-                        - :name: 'br'
-                        - :name: 'br'
-                        - :name: 'br'
-                        - :name: 'br'
-                        - :name: 'br'
-                        - :name: 'br'
-                        - :name: 'br'
-                        - :name: 'br'
-                        - :name: 'a'
-                          :attributes:
-                            :href: 'http://www.athome.co.jp/clasoa_mansion/'
-                        - :name: 'br'
-                        - :name: 'br'
-                        - :name: 'br'
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - mapSelect
-                  :children:
-                    - :name: 'img'
-                      :attributes:
-                        :alt: ''
-                        :border: '0'
-                        :height: '288'
-                        :id: 'map_img'
-                        :name: 'map_img'
-                        :src: '/clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'
-                        :usemap: '#imagemap'
-                        :width: '950'
-                    - :name: 'map'
-                      :attributes:
-                        :id: 'imagemap'
-                        :name: 'imagemap'
-                      :children:
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '北海道・東北'
-                            :coords: '363,85,463,165'
-                            :href: '/clasoa_mansion/hokkaido-tohoku/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_01.gif'');'
-                            :shape: 'rect'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '首都圏'
-                            :coords: '497,85,597,165'
-                            :href: '/clasoa_mansion/shutoken/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_02.gif'');'
-                            :shape: 'rect'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '信越・北陸'
-                            :coords: '632,85,732,165'
-                            :href: '/clasoa_mansion/shinetsu-hokuriku/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_03.gif'');'
-                            :shape: 'rect'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '東海'
-                            :coords: '770,85,870,165'
-                            :href: '/clasoa_mansion/tokai/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_04.gif'');'
-                            :shape: 'rect'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '近畿'
-                            :coords: '363,189,463,269'
-                            :href: '/clasoa_mansion/kinki/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_05.gif'');'
-                            :shape: 'rect'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '中国・四国'
-                            :coords: '497,189,597,269'
-                            :href: '/clasoa_mansion/chugoku-shikoku/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_06.gif'');'
-                            :shape: 'rect'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '九州・沖縄'
-                            :coords: '631,189,731,269'
-                            :href: '/clasoa_mansion/kyushu-okinawa/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_07.gif'');'
-                            :shape: 'rect'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '北海道・東北'
-                            :coords: '281,12,276,12,275,17,278,26,274,42,270,45,268,55,266,57,255,52,251,54,254,58,249,63,245,65,242,73,246,79,244,86,241,106,240,113,237,119,235,119,237,123,241,122,239,127,229,145,231,150,233,152,232,155,230,155,228,160,231,161,227,165,220,170,220,180,231,176,238,179,237,182,241,185,243,183,246,184,251,174,248,164,250,159,255,155,259,158,261,150,265,143,270,133,269,120,264,109,265,94,263,83,261,73,270,69,280,75,291,82,294,86,296,77,306,67,313,65,319,66,328,64,334,59,332,58,327,59,327,56,327,53,324,50,329,39,327,39,321,47,315,46,311,41,307,42,296,33'
-                            :href: '/clasoa_mansion/hokkaido-tohoku/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_01.gif'');'
-                            :shape: 'poly'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '首都圏'
-                            :coords: '244,184,243,183,241,186,238,182,232,176,221,180,219,178,207,182,204,188,208,189,207,191,207,200,203,199,199,201,199,205,198,210,201,215,203,211,207,212,210,212,212,219,217,214,221,215,223,221,225,222,230,219,235,217,235,213,238,209,243,209,241,202,240,197'
-                            :href: '/clasoa_mansion/shutoken/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_02.gif'');'
-                            :shape: 'poly'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '信越・北陸'
-                            :coords: '219,178,220,169,230,162,227,158,232,151,229,147,225,153,223,157,219,159,210,150,205,154,206,159,209,160,211,158,215,162,207,170,201,173,190,176,188,179,183,176,181,170,190,165,189,163,179,165,177,168,177,175,176,179,163,190,163,196,157,199,151,197,149,201,153,203,161,201,165,199,173,198,175,192,177,188,182,186,189,186,191,187,188,195,185,198,187,201,188,207,186,213,194,212,199,207,198,202,202,199,208,200,207,192,209,190,204,188,207,182'
-                            :href: '/clasoa_mansion/shinetsu-hokuriku/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_03.gif'');'
-                            :shape: 'poly'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '東海'
-                            :coords: '211,219,212,215,204,212,202,215,198,209,192,213,186,213,187,207,186,202,184,199,188,194,190,188,189,186,181,187,177,188,175,197,165,200,167,204,165,215,160,216,159,222,161,223,158,227,157,231,152,236,153,239,159,233,164,228,167,228,171,228,173,226,168,219,171,214,175,213,173,219,175,222,185,221,195,225,199,220,203,216,206,216,204,223,206,226,212,223'
-                            :href: '/clasoa_mansion/tokai/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_04.gif'');'
-                            :shape: 'poly'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '近畿'
-                            :coords: '150,241,153,238,151,237,158,229,159,223,160,217,164,215,167,205,165,199,160,202,154,204,149,200,150,196,148,193,144,195,139,194,131,194,133,201,126,212,132,211,135,220,136,224,145,237'
-                            :href: '/clasoa_mansion/kinki/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_05.gif'');'
-                            :shape: 'poly'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '中国・四国'
-                            :coords: '128,214,127,209,132,200,130,194,122,194,116,194,116,191,107,191,105,194,85,205,82,208,72,207,71,213,76,216,86,217,91,220,88,229,93,232,93,242,102,247,102,243,106,239,110,234,119,234,122,241,128,234,134,231,133,223'
-                            :href: '/clasoa_mansion/chugoku-shikoku/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_06.gif'');'
-                            :shape: 'poly'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '九州・沖縄'
-                            :coords: '72,215,67,215,58,219,54,222,54,220,46,222,45,228,47,238,53,239,59,241,57,246,52,251,50,256,51,258,49,262,47,263,48,267,55,272,63,270,66,268,72,260,73,254,84,241,84,233,84,226,79,223,77,225,72,222'
-                            :href: '/clasoa_mansion/kyushu-okinawa/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_07.gif'');'
-                            :shape: 'poly'
-                        - :name: 'area'
-                          :attributes:
-                            :alt: '九州・沖縄'
-                            :coords: '79,145,76,143,72,148,67,145,65,146,67,149,61,153,57,161,66,157'
-                            :href: '/clasoa_mansion/kyushu-okinawa/'
-                            :onmouseout: 'setOUT(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_00.gif'');'
-                            :onmouseover: 'setPATH(''../../../../../clasoa_design_mansion/images/search/feature/map/area_map_m1_07.gif'');'
-                            :shape: 'poly'
-                    - :name: 'ul'
-                      :attributes:
-                        :class:
-                          - btn-1
-                      :children:
-                        - :name: 'li'
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: 'http://www.athome.co.jp/clasoa_mansion/'
-                              :children:
-                                - :name: 'img'
-                                  :attributes:
-                                    :alt: '全国の新築・分譲マンションをご紹介'
-                                    :height: '88'
-                                    :src: '/clasoa_design_mansion/images/search/feature/map/area_map_m1_bt.gif'
-                                    :width: '163'
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - simple-footer
-              :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - base-footer-3
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - base-footer-inner
-                      :children:
-                        - :name: 'p'
-                        - :name: 'address'
+          - :name: h1
+            :count: 1
+            :attributes:
+              :class: mod-headnav-h
+      - :name: div
+        :count: 1
+        :attributes:
+          :style: clear:both;height:70px;
+      - :name: h2
+        :count: 1
+        :attributes:
+          :style: text-align:center
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: simple-footer
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: base-footer-3
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: base-footer-inner
+          :children:
+          - :name: p
+            :count: 1
+          - :name: address
+            :count: 1

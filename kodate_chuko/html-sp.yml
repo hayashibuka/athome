@@ -1,1411 +1,240 @@
-- :name: 'html'
-  :attributes:
-    :lang: 'ja'
+---
+:name: html
+:attributes:
+  :lang: ja
+:children:
+- :name: head
+  :count: 1
   :children:
-    - :name: 'head'
+  - :name: meta
+    :count: 3
+    :attributes:
+      :content: text/html; charset=utf-8
+      :http-equiv: content-type
+  - :name: meta
+    :count: 1
+    :attributes:
+      :content: width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=0
+      :id: viewport
+      :name: viewport
+  - :name: meta
+    :count: 5
+    :attributes:
+      :content: telephone=no
+      :name: format-detection
+  - :name: title
+    :count: 1
+  - :name: link
+    :count: 3
+    :attributes:
+      :rel: shortcut icon
+  - :name: link
+    :count: 6
+    :attributes:
+      :media: screen
+      :rel: stylesheet
+      :type: text/css
+  - :name: link
+    :count: 1
+    :attributes:
+      :rel: apple-touch-icon
+      :sizes: 152x152
+  - :name: script
+    :count: 1
+  - :name: script
+    :count: 7
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 2
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 2
+    :attributes:
+      :type: text/javascript
+- :name: body
+  :count: 1
+  :children:
+  - :name: noscript
+    :count: 5
+    :children:
+    - :name: style
+      :count: 1
+      :attributes:
+        :type: text/css
+  - :name: script
+    :count: 3
+  - :name: script
+    :count: 4
+    :attributes:
+      :type: text/javascript
+  - :name: a
+    :count: 1
+    :attributes:
+      :id: top
+  - :name: header
+    :count: 1
+    :attributes:
+      :id: header
+    :children:
+    - :name: p
+      :count: 1
+      :attributes:
+        :class: nocaption
+        :id: header-title
       :children:
-        - :name: 'meta'
-          :attributes:
-            :content: 'text/html; charset=utf-8'
-            :http-equiv: 'content-type'
-        - :name: 'meta'
-          :attributes:
-            :content: 'width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
-            :id: 'viewport'
-            :name: 'viewport'
-        - :name: 'meta'
-          :attributes:
-            :content: 'telephone=no'
-            :name: 'format-detection'
-        - :name: 'meta'
-          :attributes:
-            :content: 'index,follow,noarchive'
-            :name: 'robots'
-        - :name: 'meta'
-          :attributes:
-            :content: '【アットホーム】中古一戸建て・不動産の情報サイト アットホームなら、ご希望にぴったりのマイホーム＜中古住宅・中古物件・中古戸建て 購入の情報＞が簡単に検索できます。その他、家探しに役立つ相場情報など一戸建ての情報が盛りだくさん。マイホーム・一軒家のことならアットホームにお任せください。'
-            :name: 'description'
-        - :name: 'meta'
-          :attributes:
-            :content: '中古一戸建て,中古住宅,中古物件,中古戸建て,中古戸建,athome,アットホーム'
-            :name: 'keywords'
-        - :name: 'meta'
-          :attributes:
-            :content: 'no-cache'
-            :http-equiv: 'Pragma'
-        - :name: 'meta'
-          :attributes:
-            :content: 'no-cache'
-            :http-equiv: 'Cache-Control'
-        - :name: 'meta'
-          :attributes:
-            :content: 'app-id=378782961'
-            :name: 'apple-itunes-app'
-        - :name: 'title'
-        - :name: 'link'
-          :attributes:
-            :href: '/favicon.ico'
-            :rel:
-              - shortcut
-              - icon
-        - :name: 'link'
-          :attributes:
-            :href: '/smp/css/std/e1/common.css?v=20161006_002'
-            :media: 'screen'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: '/smp/css/std/e1/component.css?v=20161006_002'
-            :media: 'screen'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: '/smp/css/std/e1/style.css?v=20161006_002'
-            :media: 'screen'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: '/smp/css/std/e1/swipebox.css?v=20161006_002'
-            :media: 'screen'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: '/css/std/login.css?v=20161006_002'
-            :media: 'screen'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: '/css/ext/list/list_favorite.css?v=20161006_002'
-            :media: 'screen'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: '/smp/images/top/apple-touch-icon.png'
-            :rel:
-              - apple-touch-icon
-            :sizes: '152x152'
-        - :name: 'link'
-          :attributes:
-            :href: '/smp/images/top/apple-touch-icon.png'
-            :rel:
-              - apple-touch-icon-precomposed
-        - :name: 'script'
-          :attributes:
-            :src: '//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'
-        - :name: 'script'
-          :attributes:
-            :src: '/smp/scripts/libs/jquery.easing.1.3.js?v=20161006_002'
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :src: '/smp/scripts/libs/idangerous.swiper-2.0.min.js?v=20161006_002'
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :src: '/smp/scripts/libs/jquery.swipebox.min.js?v=20161006_002'
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :src: '/smp/scripts/smt.js?v=20161006_002'
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :src: '/smp/scripts/psSearch.js?v=20161006_002'
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :src: '/smp/scripts/common.js?v=20161006_002'
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :src: '/scripts/std/login.js?v=20161006_002'
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :src: '/scripts/std/loginparts_editor.js?v=20161006_002'
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :src: '/smp/scripts/std/e1/login_menu.js?v=20161006_002'
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :type: 'text/javascript'
-        - :name: 'link'
-          :attributes:
-            :href: 'http://www.athome.co.jp/kodate/chuko/'
-            :rel:
-              - canonical
-        - :name: 'noscript'
-          :children:
-            - :name: 'style'
-              :attributes:
-                :type: 'text/css'
-        - :name: 'script'
-        - :name: 'script'
-          :attributes:
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :type: 'text/javascript'
-    - :name: 'body'
+      - :name: a
+        :count: 1
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: login_link
+        :id: login_btn
+    - :name: nav
+      :count: 1
+      :attributes:
+        :class: nocaption
+        :id: header-btn-login
       :children:
-        - :name: 'a'
-          :attributes:
-            :id: 'top'
-        - :name: 'header'
-          :attributes:
-            :id: 'header'
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: btn-wrapper
+        :children:
+        - :name: a
+          :count: 3
           :children:
-            - :name: 'p'
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: btn-exam
+              :id: btn-exam
+            :children:
+            - :name: img
+              :count: 1
+            - :name: p
+              :count: 1
+            - :name: strong
+              :count: 1
               :attributes:
-                :class:
-                  - nocaption
-                :id: 'header-title'
-              :children:
-                - :name: 'a'
-                  :attributes:
-                    :href: '/smp/'
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - login_link
-                :id: 'login_btn'
-            - :name: 'nav'
-              :attributes:
-                :class:
-                  - nocaption
-                :id: 'header-btn-login'
-              :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - btn-wrapper
-                  :children:
-                    - :name: 'a'
-                      :attributes:
-                        :href: '/smt/psl/exam/ks/'
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - btn-exam
-                            :id: 'btn-exam'
-                          :children:
-                            - :name: 'img'
-                              :attributes:
-                                :alt: ''
-                                :src: '/smp/images/common/header-btn-fav.png'
-                            - :name: 'p'
-                            - :name: 'strong'
-                              :attributes:
-                                :class:
-                                  - header_kento_count
-                                :id: 'header_kento_count'
-                    - :name: 'a'
-                      :attributes:
-                        :href: '/smt/psl/recent/ks'
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - btn-recent
-                            :id: 'btn-recent'
-                          :children:
-                            - :name: 'img'
-                              :attributes:
-                                :alt: ''
-                                :src: '/smp/images/common/header-btn-recently.png'
-                            - :name: 'p'
-                    - :name: 'a'
-                      :attributes:
-                        :href: '/smt/psl/cond/'
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - btn-cond
-                            :id: 'btn-cond'
-                          :children:
-                            - :name: 'img'
-                              :attributes:
-                                :alt: ''
-                                :src: '/smp/images/common/header-btn-history.png'
-                            - :name: 'p'
-        - :name: 'nav'
+                :class: header_kento_count
+                :id: header_kento_count
+  - :name: nav
+    :count: 1
+    :attributes:
+      :id: topic-path
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: swipe-horizontal swiper-container
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: swiper-wrapper
+          :style: 'min-width: 100px; margin: 0;'
+        :children:
+        - :name: ul
+          :count: 1
           :attributes:
-            :id: 'topic-path'
+            :class: swiper-slide
           :children:
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - swipe-horizontal
-                  - swiper-container
-              :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - swiper-wrapper
-                    :style: 'min-width: 100px; margin: 0;'
-                  :children:
-                    - :name: 'ul'
-                      :attributes:
-                        :class:
-                          - swiper-slide
-                      :children:
-                        - :name: 'li'
-                          :attributes:
-                            :class:
-                              - list
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: '/smp/'
-                        - :name: 'li'
-                          :attributes:
-                            :class:
-                              - list
-        - :name: 'div'
+          - :name: li
+            :count: 2
+            :attributes:
+              :class: list
+            :children:
+            - :name: a
+              :count: 1
+  - :name: div
+    :count: 5
+    :attributes:
+      :id: content
+    :children:
+    - :name: div
+      :count: 6
+      :attributes:
+        :class: detail-header
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: detail-header-icon-sh
+        :children:
+        - :name: div
+          :count: 1
           :attributes:
-            :id: 'content'
+            :class: icon-t
           :children:
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - detail-header
-              :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - detail-header-icon-sh
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - icon-t
-                      :children:
-                        - :name: 'img'
-                          :attributes:
-                            :alt: ''
-                            :src: '/smp/images/common/icon-category-apartment.png'
-                            :width: '32'
-                - :name: 'h1'
-                  :attributes:
-                    :class:
-                      - title-page
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - list-accordion
-              :children:
-                - :name: 'ul'
-                  :children:
-                    - :name: 'li'
-                      :attributes:
-                        :class:
-                          - accordion-list
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-head
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :class:
-                                  - accordion-marker
-                                :href: '#'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - inner
-                                  :children:
-                                    - :name: 'div'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-body
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - list-basic
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/hokkaido/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/aomori/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/iwate/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/miyagi/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/akita/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/yamagata/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/fukushima/'
-                    - :name: 'li'
-                      :attributes:
-                        :class:
-                          - accordion-list
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-head
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :class:
-                                  - accordion-marker
-                                :href: '#'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - inner
-                                  :children:
-                                    - :name: 'div'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-body
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - list-basic
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/tokyo/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/kanagawa/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/chiba/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/saitama/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/ibaraki/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/tochigi/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/gunma/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/yamanashi/'
-                    - :name: 'li'
-                      :attributes:
-                        :class:
-                          - accordion-list
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-head
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :class:
-                                  - accordion-marker
-                                :href: '#'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - inner
-                                  :children:
-                                    - :name: 'div'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-body
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - list-basic
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/niigata/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/nagano/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/toyama/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/ishikawa/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/fukui/'
-                    - :name: 'li'
-                      :attributes:
-                        :class:
-                          - accordion-list
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-head
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :class:
-                                  - accordion-marker
-                                :href: '#'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - inner
-                                  :children:
-                                    - :name: 'div'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-body
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - list-basic
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/aichi/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/gifu/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/mie/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/shizuoka/'
-                    - :name: 'li'
-                      :attributes:
-                        :class:
-                          - accordion-list
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-head
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :class:
-                                  - accordion-marker
-                                :href: '#'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - inner
-                                  :children:
-                                    - :name: 'div'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-body
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - list-basic
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/shiga/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/kyoto/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/osaka/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/hyogo/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/nara/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/wakayama/'
-                    - :name: 'li'
-                      :attributes:
-                        :class:
-                          - accordion-list
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-head
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :class:
-                                  - accordion-marker
-                                :href: '#'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - inner
-                                  :children:
-                                    - :name: 'div'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-body
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - list-basic
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/tottori/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/shimane/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/okayama/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/hiroshima/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/yamaguchi/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/tokushima/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/kagawa/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/ehime/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/kochi/'
-                    - :name: 'li'
-                      :attributes:
-                        :class:
-                          - accordion-list
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-head
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :class:
-                                  - accordion-marker
-                                :href: '#'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - inner
-                                  :children:
-                                    - :name: 'div'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - accordion-body
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - list-basic
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/fukuoka/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/saga/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/nagasaki/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/kumamoto/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/oita/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/miyazaki/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/kagoshima/'
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - simple-list
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/smp/kodate/chuko/okinawa/'
-            - :name: 'p'
-              :attributes:
-                :class:
-                  - title-red
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - list-basic
-              :children:
-                - :name: 'ul'
-                  :children:
-                    - :name: 'li'
-                      :attributes:
-                        :class:
-                          - simple-list
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: '/smp/kodate/chuko/commute_time/'
-                          :children:
-                            - :name: 'img'
-                              :attributes:
-                                :alt: ''
-                                :height: '20'
-                                :src: '/smp/images/common/icon-btn-time-black-l.png'
-                    - :name: 'li'
-                      :attributes:
-                        :class:
-                          - simple-list
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: 'javascript:confSelfPos(''/smp/kodate/chuko/current/list/'', ''9'', ''9_12_13'')'
-                          :children:
-                            - :name: 'img'
-                              :attributes:
-                                :alt: ''
-                                :height: '20'
-                                :src: '/smp/images/common/icon-btn-pin-black.png'
-            - :name: 'iframe'
-              :attributes:
-                :allowtransparency: 'true'
-                :frameborder: '0'
-                :id: 'iframe-recommend-item'
-                :marginheight: '0'
-                :marginwidth: '0'
-                :scrolling: 'no'
-                :src: 'http://www.athome.co.jp/rcomd/GetRecomd.php?p_down=bukken&p_seoshumoku=kodate/chuko&spec=sp21109&cat=kr,ks&rcmdid=102&style=1'
-                :style: 'display:none; vertical-align:bottom; background-color: transparent;'
-            - :name: 'p'
-              :attributes:
-                :class:
-                  - title-red
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - bg-mesh
-              :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - bnr-slider
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - swiper-container
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - swiper-wrapper
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - swiper-slide
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :data-ajax: 'false'
-                                    :href: '/smt/special/tkkt'
-                                  :children:
-                                    - :name: 'img'
-                                      :attributes:
-                                        :src: '/smp/special/20150300605001/images/banner.png'
-                                        :width: '190'
-            - :name: 'p'
-              :attributes:
-                :class:
-                  - title-red
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - list-basic
-              :children:
-                - :name: 'ul'
-                  :children:
-                    - :name: 'li'
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: '/smt/assess/'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - thumb
-                              :children:
-                                - :name: 'img'
-                                  :attributes:
-                                    :alt: ''
-                                    :src: '/smp/images/top/assess.jpg'
-                                    :width: '50'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - caption
-                    - :name: 'li'
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: '/smt/reading/sumikae-kariru/'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - thumb
-                              :children:
-                                - :name: 'img'
-                                  :attributes:
-                                    :alt: ''
-                                    :src: '/smp/images/top/oyakudachi-05.jpg'
-                                    :width: '50'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - caption
-                    - :name: 'li'
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: 'http://www.athome.co.jp/hikkoshi_smt/?hk_member=at_sp00'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - thumb
-                              :children:
-                                - :name: 'img'
-                                  :attributes:
-                                    :alt: ''
-                                    :src: '/smp/images/top/oyakudachi-07.jpg'
-                                    :width: '50'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - caption
-                    - :name: 'li'
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: 'http://www.a-g.jp/?p_id=sp2'
-                            :target: '_blank'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - thumb
-                              :children:
-                                - :name: 'img'
-                                  :attributes:
-                                    :alt: ''
-                                    :src: '/smp/images/top/heyafile_sp.jpg'
-                                    :width: '50'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - caption
-            - :name: 'p'
-              :attributes:
-                :class:
-                  - title-red
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - list-basic
-              :children:
-                - :name: 'ul'
-                  :children:
-                    - :name: 'li'
-                      :attributes:
-                        :style: 'font-size: 12rem;'
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: 'https://itunes.apple.com/jp/app/id378782961'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - thumb
-                              :children:
-                                - :name: 'img'
-                                  :attributes:
-                                    :alt: ''
-                                    :src: '/smp/images/top/icon-app-athome.jpg'
-                                    :width: '36'
-                    - :name: 'li'
-                      :attributes:
-                        :style: 'font-size: 12rem;'
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: 'https://itunes.apple.com/jp/app/id939526130'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - thumb
-                                  - pt10
-                                  - pb10
-                              :children:
-                                - :name: 'img'
-                                  :attributes:
-                                    :alt: ''
-                                    :src: '/smp/images/top/icon-app-vox.png'
-                                    :width: '36'
-        - :name: 'form'
-          :attributes:
-            :action: ''
-            :id: 'form'
-            :method: 'post'
-            :name: 'form'
-          :children:
-            - :name: 'input'
-              :attributes:
-                :id: 'DOWN_AREA_KEN'
-                :name: 'DOWN_AREA_KEN'
-                :type: 'hidden'
-                :value: ''
-            - :name: 'input'
-              :attributes:
-                :id: 'DOWN'
-                :name: 'DOWN'
-                :type: 'hidden'
-                :value: ''
-            - :name: 'input'
-              :attributes:
-                :name: 'AREA'
-                :type: 'hidden'
-                :value: ''
-            - :name: 'input'
-              :attributes:
-                :name: 'SITECD'
-                :type: 'hidden'
-                :value: '00605'
-            - :name: 'input'
-              :attributes:
-                :name: 'LAT_SELF'
-                :type: 'hidden'
-                :value: ''
-            - :name: 'input'
-              :attributes:
-                :name: 'LON_SELF'
-                :type: 'hidden'
-                :value: ''
-        - :name: 'div'
-          :attributes:
-            :id: 'footer-btn-pagetop'
-          :children:
-            - :name: 'a'
-              :attributes:
-                :href: '#top'
-              :children:
-                - :name: 'img'
-                  :attributes:
-                    :alt: 'このページの先頭へ'
-                    :src: '/smp/images/common/footer-btn-pagetop.png'
-                    :width: '104'
-        - :name: 'div'
-          :attributes:
-            :id: 'footer-nav'
-          :children:
-            - :name: 'a'
-              :attributes:
-                :alt: 'ホーム'
-                :href: 'http://www.athome.co.jp/smp/'
-            - :name: 'span'
-            - :name: 'a'
-              :attributes:
-                :alt: 'サイトマップ'
-                :href: 'http://www.athome.co.jp/smt/athome/sitemap.html'
-            - :name: 'span'
-            - :name: 'a'
-              :attributes:
-                :alt: 'お問い合わせ'
-                :href: 'http://www.athome.co.jp/smt/athome/customer.html'
-            - :name: 'span'
-            - :name: 'a'
-              :attributes:
-                :alt: '個人情報保護方針'
-                :href: 'http://www.athome.co.jp/smt/athome/pdh.html'
-            - :name: 'span'
-            - :name: 'a'
-              :attributes:
-                :alt: '利用規約'
-                :href: 'http://www.athome.co.jp/smt/athome/kiyaku.html'
-        - :name: 'div'
-          :attributes:
-            :id: 'footer-langswitch'
-          :children:
-            - :name: 'nav'
-              :children:
-                - :name: 'ul'
-                  :children:
-                    - :name: 'li'
-                      :attributes:
-                        :id: 'footer-langswitch-smt'
-                    - :name: 'li'
-                      :attributes:
-                        :id: 'footer-langswitch-pc'
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: 'http://www.athome.co.jp/kodate/chuko/?PC=1'
-        - :name: 'footer'
-          :attributes:
-            :id: 'footer'
-          :children:
-            - :name: 'small'
-              :attributes:
-                :id: 'copyright'
-              :children:
-                - :name: 'img'
-                  :attributes:
-                    :alt: '賃貸や不動産のことならアットホーム - at home - Copyright(c) At Home Co,Ltd.'
-                    :src: '/smp/images/common/footer-logo.png'
-                    :width: '172'
-            - :name: 'p'
-              :attributes:
-                :class:
-                  - note
-              :children:
-                - :name: 'br'
-        - :name: 'script'
-          :attributes:
-            :charset: 'UTF-8'
-            :language: 'JavaScript'
-            :src: '//o.advg.jp/ojs?aid=5202&pid=5&sp_pnm='
-            :type: 'text/javascript'
-        - :name: 'noscript'
-          :children:
-            - :name: 'iframe'
-              :attributes:
-                :height: '1'
-                :src: '//o.advg.jp/oif?aid=5202&pid=5&sp_pnm='
-                :width: '1'
-        - :name: 'script'
-          :attributes:
-            :type: 'text/javascript'
-        - :name: 'noscript'
-          :children:
-            - :name: 'iframe'
-              :attributes:
-                :height: '0'
-                :src: '//www.googletagmanager.com/ns.html?id=GTM-5G7Z38'
-                :style: 'display:none;visibility:hidden'
-                :width: '0'
-        - :name: 'script'
-        - :name: 'noscript'
-          :children:
-            - :name: 'iframe'
-              :attributes:
-                :height: '0'
-                :src: '//www.googletagmanager.com/ns.html?id=GTM-TLBX4T'
-                :style: 'display:none;visibility:hidden'
-                :width: '0'
-        - :name: 'script'
-        - :name: 'script'
-          :attributes:
-            :type: 'text/javascript'
-        - :name: 'noscript'
-          :children:
-            - :name: 'iframe'
-              :attributes:
-                :frameborder: '0'
-                :height: '1'
-                :marginheight: '0'
-                :marginwidth: '0'
-                :scrolling: 'no'
-                :src: '//b.yjtag.jp/iframe?c=4jt3rRq,KhD5T8R,pmhP1pB,1zlYhWz,tglVbEW,OjLZRoD,vCLUyu3,qWeatJN,sapcTXS,vExONTl'
-                :width: '1'
-        - :name: 'div'
-          :attributes:
-            :id: 'div-gpt-ad-top'
-          :children:
-            - :name: 'script'
-              :attributes:
-                :type: 'text/javascript'
+          - :name: img
+            :count: 1
+            :attributes:
+              :width: '32'
+      - :name: h1
+        :count: 1
+        :attributes:
+          :class: title-page
+    - :name: p
+      :count: 4
+      :attributes:
+        :class: title-red
+    - :name: iframe
+      :count: 1
+      :attributes:
+        :allowtransparency: 'true'
+        :frameborder: '0'
+        :id: iframe-recommend-item
+        :marginheight: '0'
+        :marginwidth: '0'
+        :scrolling: 'no'
+        :style: 'display:none; vertical-align:bottom; background-color: transparent;'
+  - :name: form
+    :count: 1
+    :attributes:
+      :action: ''
+      :id: form
+      :method: post
+      :name: form
+    :children:
+    - :name: input
+      :count: 2
+      :attributes:
+        :id: DOWN_AREA_KEN
+        :name: DOWN_AREA_KEN
+        :type: hidden
+        :value: ''
+    - :name: input
+      :count: 4
+      :attributes:
+        :name: AREA
+        :type: hidden
+        :value: ''
+  - :name: footer
+    :count: 1
+    :attributes:
+      :id: footer
+    :children:
+    - :name: small
+      :count: 1
+      :attributes:
+        :id: copyright
+      :children:
+      - :name: img
+        :count: 1
+        :attributes:
+          :width: '172'
+    - :name: p
+      :count: 1
+      :attributes:
+        :class: note
+      :children:
+      - :name: br
+        :count: 1
+  - :name: script
+    :count: 1
+    :attributes:
+      :charset: UTF-8
+      :language: JavaScript
+      :type: text/javascript
