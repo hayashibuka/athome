@@ -360,9 +360,7 @@
                         :class: typeInline col-5
                       :children:
                       - :name: li
-                        :count: 1
-                        :attributes:
-                          :class: 'null'
+                        :count: 22
                         :children:
                         - :name: input
                           :count: 1
@@ -381,8 +379,13 @@
                           :children:
                           - :name: span
                             :count: 1
+                            :children:
+                            - :name: a
+                              :count: 1
                       - :name: li
-                        :count: 22
+                        :count: 1
+                        :attributes:
+                          :class: 'null'
                         :children:
                         - :name: input
                           :count: 1
@@ -401,9 +404,6 @@
                           :children:
                           - :name: span
                             :count: 1
-                            :children:
-                            - :name: a
-                              :count: 1
                   - :name: input
                     :count: 1
                     :attributes:
