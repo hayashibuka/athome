@@ -32,12 +32,12 @@
       :media: 'only screen and (max-width: 640px)'
       :rel: alternate
   - :name: link
-    :count: 4
+    :count: 5
     :attributes:
       :rel: stylesheet
       :type: text/css
   - :name: script
-    :count: 15
+    :count: 16
   - :name: script
     :count: 1
     :attributes:
@@ -433,17 +433,46 @@
                       :attributes:
                         :class: radioLabel
                         :for: search-form_station
-        - :name: iframe
+        - :name: div
           :count: 1
           :attributes:
-            :allowtransparency: 'true'
-            :frameborder: '0'
-            :id: iframe-pkodate-item
-            :marginheight: '0'
-            :marginwidth: '0'
-            :scrolling: 'no'
-            :style: 'vertical-align:bottom; background-color: transparent; display:none;
-              position: relative; left: -15px; margin-top: 7px;'
+            :class: pkodate-box pkodate-pie
+            :id: pkodateItem
+            :style: 'display: none;'
+          :children:
+          - :name: p
+            :count: 1
+            :attributes:
+              :class: pkodate-heading pkodate-lv2
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: inner pkodate-main
+              :id: pkodateMain
+            :children:
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: horizontal col-3 pkodate-clr
+              :children:
+              - :name: div
+                :count: 8
+                :attributes:
+                  :class: pkodate-item
+                :children:
+                - :name: a
+                  :count: 1
+                  :attributes:
+                    :target: _blank
+                  :children:
+                  - :name: p
+                    :count: 1
+                    :children:
+                    - :name: img
+                      :count: 1
+                      :attributes:
+                        :height: '135'
+                        :width: '215'
         - :name: iframe
           :count: 1
           :attributes:
@@ -508,6 +537,11 @@
                 :count: 1
                 :attributes:
                   :class: title fsL
+        - :name: link
+          :count: 1
+          :attributes:
+            :rel: stylesheet
+            :type: text/css
         - :name: section
           :count: 1
           :attributes:

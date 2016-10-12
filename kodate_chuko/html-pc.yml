@@ -32,12 +32,12 @@
       :media: 'only screen and (max-width: 640px)'
       :rel: alternate
   - :name: link
-    :count: 4
+    :count: 5
     :attributes:
       :rel: stylesheet
       :type: text/css
   - :name: script
-    :count: 15
+    :count: 16
   - :name: script
     :count: 1
     :attributes:
@@ -468,6 +468,11 @@
                 :children:
                 - :name: a
                   :count: 1
+        - :name: link
+          :count: 1
+          :attributes:
+            :rel: stylesheet
+            :type: text/css
         - :name: section
           :count: 1
           :attributes:
