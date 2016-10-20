@@ -79,7 +79,7 @@
         :id: container
       :children:
       - :name: div
-        :count: 7
+        :count: 6
         :attributes:
           :class: header-txt
         :children:
