@@ -411,10 +411,10 @@
               - :name: script
                 :count: 1
         - :name: section
-          :count: 4
+          :count: 3
           :attributes:
-            :class: box relation-search
-            :id: relation-town
+            :class: box
+            :id: relation-item
           :children:
           - :name: h2
             :count: 1
@@ -428,23 +428,13 @@
             - :name: ul
               :count: 1
               :attributes:
-                :class: typeInline toggleList separater col-4
-                :id: town-list
+                :class: typeInline col-4 icoArrow
               :children:
               - :name: li
-                :count: 59
-                :attributes:
-                  :class: " null"
-            - :name: p
-              :count: 1
-              :attributes:
-                :class: openerArrowS close taR
-              :children:
-              - :name: a
-                :count: 1
-                :attributes:
-                  :class: func-opener
-                  :data-toggle-name: "元に戻す"
+                :count: 3
+                :children:
+                - :name: a
+                  :count: 1
         - :name: div
           :count: 1
           :attributes:

@@ -360,7 +360,9 @@
                         :class: typeInline col-5
                       :children:
                       - :name: li
-                        :count: 23
+                        :count: 1
+                        :attributes:
+                          :class: 'null'
                         :children:
                         - :name: input
                           :count: 1
@@ -376,6 +378,26 @@
                           :count: 1
                           :attributes:
                             :for: chiyoda
+                          :children:
+                          - :name: span
+                            :count: 1
+                      - :name: li
+                        :count: 22
+                        :children:
+                        - :name: input
+                          :count: 1
+                          :attributes:
+                            :class: dev-areaList dev-postItemData dev-checkGroup-00100
+                            :data-cd: tokyo/chuo
+                            :data-locate-code: '00100'
+                            :id: chuo
+                            :name: areaList[13102]
+                            :type: checkbox
+                            :value: chuo
+                        - :name: label
+                          :count: 1
+                          :attributes:
+                            :for: chuo
                           :children:
                           - :name: span
                             :count: 1
