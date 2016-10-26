@@ -417,7 +417,7 @@
                       :class: option-group search-items_table
                     :children:
                     - :name: tr
-                      :count: 12
+                      :count: 18
                       :children:
                       - :name: th
                         :count: 1
@@ -429,10 +429,10 @@
                         - :name: ul
                           :count: 1
                           :attributes:
-                            :class: typeInline col-3
+                            :class: typeInline auto
                           :children:
                           - :name: li
-                            :count: 8
+                            :count: 3
                             :children:
                             - :name: label
                               :count: 1
@@ -441,9 +441,9 @@
                                 :count: 1
                                 :attributes:
                                   :class: dev-jokenList dev-postItemData
-                                  :name: KODAWARI[]
+                                  :name: SHUMOKU[]
                                   :type: checkbox
-                                  :value: K01
+                                  :value: kb001
               - :name: input
                 :count: 5
                 :attributes:
