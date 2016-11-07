@@ -156,7 +156,7 @@
           :class: bg-yellow
         :children:
         - :name: li
-          :count: 2
+          :count: 1
           :attributes:
             :class: arrow-black
           :children:

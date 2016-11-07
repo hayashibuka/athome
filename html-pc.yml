@@ -255,17 +255,40 @@
                     - :name: a
                       :count: 1
         - :name: div
-          :count: 3
+          :count: 2
           :attributes:
-            :class: taC mB15
+            :class: contents-link formatCols col-2 clr
           :children:
-          - :name: a
-            :count: 1
+          - :name: div
+            :count: 2
+            :attributes:
+              :class: item wide left
             :children:
-            - :name: img
+            - :name: div
               :count: 1
               :attributes:
-                :class: bnr_frame
+                :class: withThumb
+              :children:
+              - :name: p
+                :count: 2
+                :attributes:
+                  :class: thumb
+                :children:
+                - :name: a
+                  :count: 1
+                  :children:
+                  - :name: img
+                    :count: 1
+                    :attributes:
+                      :height: '70'
+                      :width: '140'
+              - :name: span
+                :count: 1
+                :attributes:
+                  :class: title fsLL
+                :children:
+                - :name: a
+                  :count: 1
         - :name: script
           :count: 1
           :attributes:
