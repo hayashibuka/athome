@@ -172,7 +172,7 @@
           :attributes:
             :class: login_link
   - :name: noscript
-    :count: 5
+    :count: 4
     :children:
     - :name: div
       :count: 1
@@ -346,12 +346,6 @@
             :width: '52'
   - :name: script
     :count: 1
-  - :name: script
-    :count: 1
-    :attributes:
-      :charset: UTF-8
-      :language: JavaScript
-      :type: text/javascript
   - :name: script
     :count: 2
     :attributes:
