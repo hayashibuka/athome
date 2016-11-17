@@ -48,11 +48,6 @@
       :type: text/javascript
   - :name: script
     :count: 1
-  - :name: script
-    :count: 1
-    :attributes:
-      :data-kz-key: 1edfcc905e69e940
-      :data-kz-namespace: kzs
 - :name: body
   :count: 1
   :children:
@@ -403,7 +398,7 @@
                             :id: yamanote_count
                             :name: yamanote_count
                             :type: hidden
-                            :value: '4185'
+                            :value: '4189'
                         - :name: label
                           :count: 1
                           :attributes:

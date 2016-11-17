@@ -279,6 +279,10 @@
         :count: 1
         :attributes:
           :type: text/javascript
+  - :name: script
+    :count: 3
+    :attributes:
+      :type: text/javascript
   - :name: footer
     :count: 1
     :attributes:
@@ -300,7 +304,3 @@
       :children:
       - :name: br
         :count: 1
-  - :name: script
-    :count: 2
-    :attributes:
-      :type: text/javascript

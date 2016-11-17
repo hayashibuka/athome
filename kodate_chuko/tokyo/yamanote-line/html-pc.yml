@@ -45,11 +45,6 @@
       :type: text/javascript
   - :name: script
     :count: 1
-  - :name: script
-    :count: 1
-    :attributes:
-      :data-kz-key: 1edfcc905e69e940
-      :data-kz-namespace: kzs
 - :name: body
   :count: 1
   :children:
@@ -516,7 +511,7 @@
                 :class: horizontal col-5 clr
               :children:
               - :name: div
-                :count: 21
+                :count: 20
                 :attributes:
                   :class: item
                 :children:
