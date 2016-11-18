@@ -447,53 +447,6 @@
                 :attributes:
                   :class: func-opener
                   :data-toggle-name: "元に戻す"
-        - :name: section
-          :count: 1
-          :attributes:
-            :class: box
-          :children:
-          - :name: h2
-            :count: 1
-            :attributes:
-              :class: heading lv2
-          - :name: p
-            :count: 1
-            :attributes:
-              :class: more catch
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: inner bukken-slider
-            :children:
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: horizontal col-5 clr
-              :children:
-              - :name: div
-                :count: 1
-                :attributes:
-                  :class: item
-                :children:
-                - :name: a
-                  :count: 1
-                  :attributes:
-                    :target: _blank
-                  :children:
-                  - :name: p
-                    :count: 4
-                    :attributes:
-                      :class: title
-            - :name: p
-              :count: 2
-              :attributes:
-                :class: slidePrev
-              :children:
-              - :name: img
-                :count: 1
-                :attributes:
-                  :height: '38'
-                  :width: '30'
         - :name: div
           :count: 1
           :attributes:
