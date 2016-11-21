@@ -471,7 +471,7 @@
                 :class: horizontal col-5 clr
               :children:
               - :name: div
-                :count: 1
+                :count: 2
                 :attributes:
                   :class: item
                 :children:
