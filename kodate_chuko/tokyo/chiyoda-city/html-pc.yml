@@ -405,7 +405,7 @@
               - :name: script
                 :count: 1
         - :name: section
-          :count: 5
+          :count: 4
           :attributes:
             :class: box relation-search
             :id: relation-town
