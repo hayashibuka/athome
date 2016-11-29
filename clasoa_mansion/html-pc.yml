@@ -47,11 +47,6 @@
     :count: 2
     :attributes:
       :type: text/javascript
-  - :name: script
-    :count: 2
-    :attributes:
-      :charset: utf-8
-      :type: text/javascript
 - :name: body
   :count: 1
   :children:
@@ -87,6 +82,13 @@
           :count: 1
           :attributes:
             :target: _blank
+      - :name: p
+        :count: 1
+        :attributes:
+          :style: 'position: absolute; top: 39px; left: 636px; z-index: 7;'
+        :children:
+        - :name: img
+          :count: 1
       - :name: script
         :count: 1
         :attributes:
@@ -273,22 +275,17 @@
                 :attributes:
                   :target: _blank
     - :name: script
-      :count: 1
+      :count: 2
       :attributes:
-        :charset: UTF-8
-        :language: JavaScript
         :type: text/javascript
     - :name: noscript
-      :count: 4
+      :count: 3
       :children:
       - :name: iframe
         :count: 1
         :attributes:
-          :height: '1'
-          :width: '1'
-    - :name: script
-      :count: 2
-      :attributes:
-        :type: text/javascript
+          :height: '0'
+          :style: display:none;visibility:hidden
+          :width: '0'
     - :name: script
       :count: 2

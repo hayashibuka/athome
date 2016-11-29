@@ -37,11 +37,6 @@
     :count: 2
     :attributes:
       :type: text/javascript
-  - :name: script
-    :count: 2
-    :attributes:
-      :charset: utf-8
-      :type: text/javascript
 - :name: body
   :count: 1
   :attributes:
@@ -104,8 +99,6 @@
         :children:
         - :name: a
           :count: 1
-          :attributes:
-            :target: _blank
           :children:
           - :name: img
             :count: 1
@@ -116,7 +109,7 @@
     :attributes:
       :type: text/javascript
   - :name: noscript
-    :count: 4
+    :count: 3
     :children:
     - :name: iframe
       :count: 1
@@ -126,9 +119,3 @@
         :width: '0'
   - :name: script
     :count: 2
-  - :name: script
-    :count: 1
-    :attributes:
-      :charset: UTF-8
-      :language: JavaScript
-      :type: text/javascript
